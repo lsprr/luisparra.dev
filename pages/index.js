@@ -35,7 +35,6 @@ export default function Home() {
               src={oldSchoolRunescape}
               alt="Old School Runescape"
               layout='fill'
-              priority
               className='container mx-auto'
             />
           </figure>
