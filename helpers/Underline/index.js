@@ -1,0 +1,10 @@
+const Underline = ({ text }) => {
+    return (
+        <>
+            <span className='leading-none tracking-normal uppercase text-sm'>{text}</span>
+            <span className='relative top-7 right-auto bottom-auto inline-block w-16 h-px mr-5 ml-1 bg-black text-transparent'>__</span>
+        </>
+    )
+}
+
+export default Underline;
