@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import { useState } from 'react';
+import { useRouter } from 'next/router';
+import { useState, useEffect } from 'react';
 
 const Navbar = () => {
 
@@ -9,6 +10,12 @@ const Navbar = () => {
 
     const menu = ['about', 'resume'];
     const [collapse, setCollapse] = useState(false);
+    const router = useRouter();
+    const pathname = router.pathname;
+
+    useEffect(() => {
+        setCollapse(false)
+    }, [pathname])
 
     return (
         <header className='m-auto max-w-screen-lg py-12 px-4'>
