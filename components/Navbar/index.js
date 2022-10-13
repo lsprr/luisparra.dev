@@ -29,16 +29,16 @@ const Navbar = () => {
                         <Link href="/">Luis Parra</Link>
                     </div>
 
-                    <button onClick={() => setCollapse(prevCollapse => !prevCollapse)} data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden" aria-controls="navbar-default" aria-expanded="false">
+                    <button onClick={() => setCollapse(prevCollapse => !prevCollapse)} data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center text-sm text-gray-500 rounded-lg md:hidden" aria-controls="navbar-default" aria-expanded="false">
                         <span className="sr-only">Open main menu</span>
                         {collapse
-                            ? <svg fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="black" className="w-6 h-6"> <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" /></svg>
-                            : <svg fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="black" className="w-6 h-6"> <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" /></svg>
+                            ? <svg fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-7 h-7"> <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" /></svg>
+                            : <svg fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-7 h-7"> <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" /></svg>
                         }
                     </button>
 
                     <div className={`${collapse ? 'block' : 'hidden'} w-full md:block md:w-auto`} id="navbar-default">
-                        <ul className="flex flex-row items-center justify-evenly mt-4 md:space-x-8 md:mt-0 md:text-sm text-right">
+                        <ul className="flex flex-row items-center justify-between mt-4 md:space-x-8 md:mt-0 md:text-sm text-right">
                             {menu.map((item, index) => (
                                 <li key={index} className={`${item} text-xl whitespace-nowrap`} aria-current="page">
                                     <Link href={item === 'resume' ? './assets/file/resume.pdf' : item}>{capitalizeFirstLetter(item)}</Link>
@@ -52,7 +52,7 @@ const Navbar = () => {
                                         viewBox="0 0 24 24"
                                         strokeWidth="1.5"
                                         stroke="currentColor"
-                                        className="w-6 h-6">
+                                        className="w-[1.8rem] h-[1.8rem]">
                                         <path
                                             strokeLinecap="round"
                                             strokeLinejoin="round"
@@ -68,7 +68,7 @@ const Navbar = () => {
                                         viewBox="0 0 24 24"
                                         strokeWidth="1.5"
                                         stroke="currentColor"
-                                        className="w-6 h-6">
+                                        className="w-[1.8rem] h-[1.8rem]">
                                         <path
                                             strokeLinecap="round"
                                             strokeLinejoin="round"
