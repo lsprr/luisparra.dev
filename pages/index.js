@@ -6,6 +6,8 @@ import Article from '../content/Article/index';
 import Br from '../helpers/Br/index';
 import Underline from '../helpers/Underline/index';
 
+const css = { width: '100%', height: '100%' };
+
 export default function Home() {
 
   return (
@@ -34,8 +36,11 @@ export default function Home() {
             <Image
               src={oldSchoolRunescape}
               alt="Old School Runescape"
-              layout='fill'
-              className='container mx-auto'
+              layout="fill"
+              sizes="(max-width: 768px) 100vw,
+                      (max-width: 1200px) 50vw,
+                      50vw"
+              style={css}
             />
           </figure>
         </Article>
