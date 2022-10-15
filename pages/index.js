@@ -37,11 +37,10 @@ export default function Home() {
               src={oldSchoolRunescape}
               alt="Old School Runescape"
               layout="fill"
-              sizes="(max-width: 768px) 100vw,
-                      (max-width: 1200px) 50vw,
-                      50vw"
+              sizes="(max-width: 768px) 50vw,
+                      (max-width: 1200px) 100vw,
+                      100vw"
               style={css}
-              quality="100"
             />
           </figure>
         </Article>
