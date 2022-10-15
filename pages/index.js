@@ -41,6 +41,7 @@ export default function Home() {
                       (max-width: 1200px) 50vw,
                       50vw"
               style={css}
+              quality="100"
             />
           </figure>
         </Article>
