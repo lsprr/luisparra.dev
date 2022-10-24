@@ -9,7 +9,7 @@ export default function About() {
             <Section>
                 <header>
                     <h1 className='container mx-auto text-4xl md:text-5xl'>
-                        Hi! I'm Luis Parra!
+                        Hi! I&apos;m Luis Parra!
                     </h1>
                     <h2 className='container mt-20 text-xl lg:w-8/12 mx-auto lg:mr-auto lg:ml-0'>
                         <Underline text='About Me 01' />

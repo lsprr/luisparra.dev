@@ -16,7 +16,7 @@ export default function Home() {
         <Section>
           <header>
             <h1 className='container mx-auto text-4xl md:text-5xl'>
-              Hi, I'm Luis, a Software Engineer who enjoys solving problems and making digital products easier to use.
+              Hi, I&apos;m Luis, a Software Engineer who enjoys solving problems and making digital products easier to use.
             </h1>
             <h2 className='container mt-20 text-xl lg:w-8/12 mx-auto lg:ml-auto lg:mr-0'>
               <Underline text='Introduction 01' />
