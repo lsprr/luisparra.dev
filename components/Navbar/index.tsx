@@ -5,7 +5,7 @@ import useDarkMode from '../../hooks/useDarkMode';
 
 const Navbar = () => {
 
-    function capitalizeFirstLetter(string) {
+    function capitalizeFirstLetter(string: string) {
         return string.charAt(0).toUpperCase() + string.slice(1);
     }
 
@@ -32,7 +32,7 @@ const Navbar = () => {
                     <div className='flex items-center md:ml-auto md:mr-8'>
                         {colorTheme === "light" ? (
                             <svg
-                                onClick={() => setTheme("light")}
+                                onClick={() => setTheme()}
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 strokeWidth="1.5"
@@ -46,7 +46,7 @@ const Navbar = () => {
 
                         ) : (
                             <svg
-                                onClick={() => setTheme("dark")}
+                                onClick={() => setTheme()}
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 strokeWidth="1.5"
