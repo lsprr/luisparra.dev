@@ -36,6 +36,7 @@ export default function Home() {
                       (max-width: 1200px) 100vw,
                       100vw"
               style={css}
+              className='container lg:w-8/12 mx-auto lg:ml-auto lg:mr-0'
             />
           </figure>
         </article>
