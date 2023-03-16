@@ -1,29 +1,51 @@
-import Link from 'next/link';
+import Link, { LinkProps } from 'next/link';
 import { useRouter } from 'next/router';
 import { useState, useEffect } from 'react';
 import useDarkMode from '../../hooks/useDarkMode';
 
+interface MenuItemProps {
+    label: string;
+    href: string;
+    isExternal?: boolean;
+}
+
+const menuItems: MenuItemProps[] = [
+    { label: 'About', href: '/about' },
+    { label: 'GitHub', href: 'https://github.com/lsprr', isExternal: true },
+];
+
+const MenuItem = ({ label, href, isExternal }: MenuItemProps) => {
+    const linkProps: React.AnchorHTMLAttributes<HTMLAnchorElement> & LinkProps = {
+        href,
+        className: 'text-xl whitespace-nowrap',
+        'aria-label': `${label} page`,
+    };
+
+    if (isExternal) {
+        linkProps.target = '_blank';
+        linkProps.rel = 'noopener noreferrer';
+    }
+
+    return (
+        <li>
+            <Link {...linkProps}>{label}</Link>
+        </li>
+    );
+};
+
 const Navbar = () => {
-    const listOfLinks = ['About', 'GitHub'];
     const [collapse, setCollapse] = useState(false);
     const [colorTheme, setTheme] = useDarkMode();
     const router = useRouter();
     const pathname = router.pathname;
-    let menu = [];
 
     useEffect(() => {
         setCollapse(false)
     }, [pathname])
 
-    /* TODO: Need to improve this code quality */
-    menu = listOfLinks.map((item, index) => (
-        <li key={index} className={`${item} text-xl whitespace-nowrap`} aria-current="page">
-            {item === 'GitHub'
-                ? <Link href='https://github.com/lsprr' target="_blank" rel="noopener noreferrer">{item}</Link>
-                : <Link href={`${item.toLowerCase()}`}>{item}</Link>
-            }
-        </li>
-    ))
+    const menu = menuItems.map((item, index) => (
+        <MenuItem key={index} {...item} />
+    ));
 
     return (
         <header className='m-auto max-w-screen-lg py-12 px-4'>
@@ -37,32 +59,38 @@ const Navbar = () => {
 
                     <div className='flex items-center md:ml-auto md:mr-8'>
 
-                        <svg
+                        <button
                             onClick={() => setTheme()}
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            strokeWidth="1.5"
-                            stroke="currentColor"
+                            aria-label="toggle theme"
                             className="w-[1.8rem] h-[1.8rem]"
                         >
-                            {colorTheme === "light" ? (
-                                <>
-                                    <path
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                        d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"
-                                    />
-                                </>
-                            ) : (
-                                <>
-                                    <path
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                        d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z"
-                                    />
-                                </>
-                            )}
-                        </svg>
+                            <svg
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                strokeWidth="1.5"
+                                stroke="currentColor"
+                                aria-hidden="true"
+                            >
+                                {colorTheme === "light" ? (
+                                    <>
+                                        <path
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"
+                                        />
+                                    </>
+                                ) : (
+                                    <>
+                                        <path
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z"
+                                        />
+                                    </>
+                                )}
+                            </svg>
+                        </button>
+
 
                         <button onClick={() => setCollapse(prevCollapse => !prevCollapse)} data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center text-sm text-gray-500 rounded-lg md:hidden ml-3" aria-controls="navbar-default" aria-expanded={collapse ? "true" : "false"}>
                             <span className="sr-only">Open main menu</span>
