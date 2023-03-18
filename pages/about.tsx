@@ -12,7 +12,7 @@ export default function About() {
                         <Underline text='About Me 01' />
                         I had the opportunity to practice web-accessibility as Front End Developer for multiple companies, such as The Clorox Company, Mower Agency, and multiple startups.
                         <br className='mb-5' />
-                        In the U.S. alone, 61 million people (over 1 in 4) live with some type of disability. Like everyone else, they search the web, shop online, stream movies, use apps, and access digital content. It should come as no surprise that they want, expect, and deserve <u>equal access</u> to our products.
+                        In the U.S. alone, 61 million people (over 1 in 4) live with some type of disability. Like everyone else, they search the web, shop online, stream movies, use apps, and access digital content. It should come as no surprise that they want, expect, and deserve <i>equal access</i> to our products.
                         <br className='mb-5' />
                         My skill set covers a variety of areas related to software engineering such as teamwork, attention to detail, and multitasking. I get excited about anything that involves solving problems, whether it be figuring out how to optimize a certain part of an existing application or entirely coming up with new applications to solve certain needs.
                         <br className='mb-5' />
