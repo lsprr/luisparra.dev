@@ -1,7 +1,15 @@
 import '../styles/globals.css'
 import { AppProps } from 'next/app';
 import Head from 'next/head';
-import Navbar from '../components/Navbar/index';
+import Navbar from '../components/Navigation/Navbar';
+
+/**
+ * TODO: Need to move this array of menu items in a separate file.
+*/
+const menuItems = [
+  { label: 'About', href: '/about' },
+  { label: 'GitHub', href: 'https://github.com/lsprr', isExternal: true },
+];
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -17,8 +25,10 @@ function MyApp({ Component, pageProps }: AppProps) {
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest"></link>
       </Head>
-      <Navbar />
-      <Component {...pageProps} />
+      <Navbar menuItems={menuItems} />
+      <main>
+        <Component {...pageProps} />
+      </main>
     </>
   )
 }

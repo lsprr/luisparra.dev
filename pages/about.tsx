@@ -1,4 +1,4 @@
-import Underline from '../components/Underline/index';
+import TextInlineDecoration from '../components/TextInlineDecoration/index';
 
 export default function About() {
     return (
@@ -9,7 +9,7 @@ export default function About() {
                         Hi! I&apos;m Luis Parra!
                     </h1>
                     <h2 className='container mt-20 text-xl lg:w-8/12 mx-auto lg:mr-auto lg:ml-0'>
-                        <Underline text='About Me 01' />
+                        <TextInlineDecoration text='About Me 01' />
                         I had the opportunity to practice web-accessibility as Front End Developer for multiple companies, such as The Clorox Company, Mower Agency, and multiple startups.
                         <br className='mb-5' />
                         In the U.S. alone, 61 million people (over 1 in 4) live with some type of disability. Like everyone else, they search the web, shop online, stream movies, use apps, and access digital content. It should come as no surprise that they want, expect, and deserve <i>equal access</i> to our products.

@@ -2,7 +2,7 @@ interface Props {
     text: string;
 }
 
-const Underline = ({ text }: Props) => {
+const TextInlineDecoration = ({ text }: Props) => {
     return (
         <>
             <span className='leading-none tracking-normal uppercase text-sm'>{text}</span>
@@ -11,4 +11,4 @@ const Underline = ({ text }: Props) => {
     )
 }
 
-export default Underline;
+export default TextInlineDecoration;
