@@ -10,14 +10,14 @@ export default function About() {
                     </h1>
                     <h2 className='container mt-20 text-xl lg:w-8/12 mx-auto lg:mr-auto lg:ml-0'>
                         <TextInlineDecoration text='About Me 01' />
-                        I had the opportunity to practice web-accessibility as Front End Developer for multiple companies, such as The Clorox Company, Mower Agency, and multiple startups.
+                        Throughout my career, I have had the privilege of practicing web accessibility as a Front End Developer for various companies, including The Clorox Company, Mower Agency, and numerous startups.
+                        In the U.S. alone, over one in four people, or 61 million individuals, live with some form of disability. These individuals, like everyone else, navigate the web, shop online, stream movies, use apps, and access digital content.
+                        Consequently, it is vital that they have <i>equal access</i> to the digital products we create.
                         <br className='mb-5' />
-                        In the U.S. alone, 61 million people (over 1 in 4) live with some type of disability. Like everyone else, they search the web, shop online, stream movies, use apps, and access digital content. It should come as no surprise that they want, expect, and deserve <i>equal access</i> to our products.
+                        My skill set encompasses an array of software engineering aspects, such as teamwork, meticulous attention to detail, and effective multitasking.
+                        I am truly passionate about problem-solving, whether it involves optimizing a specific component of an existing application or devising entirely new solutions to address particular needs.
                         <br className='mb-5' />
-                        My skill set covers a variety of areas related to software engineering such as teamwork, attention to detail, and multitasking. I get excited about anything that involves solving problems, whether it be figuring out how to optimize a certain part of an existing application or entirely coming up with new applications to solve certain needs.
-                        <br className='mb-5' />
-                        My interest also lies in traveling... I have visited 18 countries (7% of the whole world)!
-                    </h2>
+                        Aside from my professional pursuits, I also have a keen interest in traveling. To date, I have explored 18 countries, which equates to 7% of the entire world!                    </h2>
                 </header>
             </section>
             <article className='max-w-screen-lg py-12 px-4 m-auto'>

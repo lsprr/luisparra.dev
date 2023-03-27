@@ -11,18 +11,17 @@ export default function Home() {
       <section className='max-w-screen-lg py-12 px-4 m-auto'>
         <header>
           <h1 className='container mx-auto text-4xl md:text-5xl'>
-            Hi, I&apos;m Luis, a Software Engineer who enjoys solving problems and making digital products easier to use.
+            Hello! I&apos;m Luis, a Software Engineer with a passion for problem-solving and enhancing the usability of digital products to create seamless user experiences.
           </h1>
           <h2 className='container mt-20 text-xl lg:w-8/12 mx-auto lg:ml-auto lg:mr-0'>
             <TextInlineDecoration text='Introduction 01' />
-            I enjoy creating web apps, which is a trend in development circles that is becoming increasingly popular throughout the Internet!
-            My interest in web development started back in 2006 when I played Runescape, and I had to use a lot of Runescape fan sites for
-            many different things such as Zybez for prices, RuneHQ for quest guides, wiki for quick look ups of items
-            & NPCs (Non Player Characters), minigame information, tips, etc.
+            Developing web applications has always been a passion of mine, and it is exciting to see this trend gaining popularity within the development community and across the internet.
+            My journey into web development began in 2006 when I was an avid Runescape player, frequently utilizing various fan sites, such as Zybez for price checks, RuneHQ for quest guides,
+            and wiki for quick references on items, NPCs, minigame details, and useful tips.
             <br className='mb-5' />
-            It turns out that my time spent editing web pages over the years as a hobby has taught me a lot about the nuances of using HTML
-            & CSS to manipulate content found on a page. Fast-forward to today, and I have had the privilege of working at a digital agency, and a huge corporation.
-            My main focus these days is building accessible, inclusive products and digital experiences.
+            Over the years, my hobby of editing web pages has provided me with invaluable insights into the nuances of utilizing HTML and CSS to effectively manage and present content.
+            Fast-forward to the present, and I have had the privilege of working in both a digital agency and a prominent corporation. My current focus is on designing accessible, inclusive products and digital experiences that cater to a diverse audience.
+            By sharing my personal journey, I hope to inspire others and make a meaningful impact in the world of web development.
           </h2>
         </header>
       </section>
