@@ -20,9 +20,6 @@ export default function About() {
                         Aside from my professional pursuits, I also have a keen interest in traveling. To date, I have explored 18 countries, which equates to 7% of the entire world!                    </h2>
                 </header>
             </section>
-            <article className='max-w-screen-lg py-12 px-4 m-auto'>
-                <iframe title="Interactive Visited Countries Map" className='container mx-auto w-full outline-none h-[26rem] md:h-[41rem]' src="//www.fla-shop.com/visited-countries/embed/?st=AW%2CBB%2CBS%2CBZ%2CCR%2CCW%2CDO%2CES%2CHN%2CMX%2CPR%2CPT%2CSX%2CTC%2CTT%2CVE%2CVG%2CVI&vc=1ca032&uc=b3c3ca&hc=00ff00&bc=000000&ss=on" frameBorder="0" scrolling="no"></iframe>
-            </article>
         </>
     )
 }
