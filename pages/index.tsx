@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import TextInlineDecoration from '../components/TextInlineDecoration/index';
-import oldSchoolRunescape from '../public/assets/image/runescape.png';
+import AboutMe from '../public/assets/image/me.jpg';
+import OldSchoolRunescape from '../public/assets/image/snake.jpg';
 
 const css = { width: '100%', height: '100%' };
 
@@ -14,7 +15,7 @@ export default function Home() {
             <TextInlineDecoration text='Introduction 01' />
             Hey There! I&apos;m Luis, your friendly neighborhood Software Engineer with a big heart for problem-solving and refining digital products to deliver the smoothest user experiences.
             Web application development has always been close to my heart, and it thrills me to see it gaining traction within the dev community and all over the internet.
-            My love for web development started back in 2006, when I was a die-hard Runescape fan, always hopping onto sites like Zybez, RuneHQ, and wiki for all my gaming needs.
+            My love for web development started back in 2006, when I was a die-hard RuneScape fan, always hopping onto sites like Zybez, RuneHQ, and wiki for all my gaming needs.
             <br className='mb-5' />
             Over time, tinkering with web pages turned from a hobby into an opportunity for me to learn the ins and outs of HTML and CSS, helping me master the art of crafting and presenting content.
             Today, I have had the honor of working with both a creative digital agency and a major corporation. My focus now is on building inclusive, accessible products and digital experiences that embrace the beauty of diversity.
@@ -25,7 +26,7 @@ export default function Home() {
       <article className='max-w-screen-lg py-12 px-4 m-auto'>
         <figure className='dark:border-solid dark:border dark:border-[#596e96]'>
           <Image
-            src={oldSchoolRunescape}
+            src={OldSchoolRunescape}
             alt="Old School Runescape"
             sizes="(max-width: 768px) 50vw,
                       (max-width: 1200px) 100vw,
@@ -33,7 +34,7 @@ export default function Home() {
             style={css}
             className='container lg:w-8/12 mx-auto lg:ml-auto lg:mr-0'
           />
-          <figcaption className='py-2 dark:bg-[#313e59]'>Image courtesy of Jagex Ltd.</figcaption>
+          <figcaption className='py-2 dark:bg-[#313e59]'>Image courtesy of prezleek.</figcaption>
         </figure>
       </article>
       <section className='max-w-screen-lg py-12 px-4 m-auto'>
@@ -51,6 +52,18 @@ export default function Home() {
           </h2>
         </header>
       </section>
+      <article className='max-w-screen-lg py-12 px-4 m-auto'>
+        <figure>
+          <Image
+            src={AboutMe}
+            alt="Me"
+            sizes="(max-width: 768px) 50vw,
+                      (max-width: 1200px) 100vw,
+                      100vw"
+            className='container lg:w-8/12 mx-auto lg:mr-auto lg:ml-0 dark:border-solid dark:border dark:border-[#596e96]'
+          />
+        </figure>
+      </article>
     </>
   )
 }
