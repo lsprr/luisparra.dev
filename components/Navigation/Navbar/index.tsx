@@ -23,7 +23,7 @@ const Navbar = ({ menuItems }: NavbarProps) => {
 
     return (
         <header className='m-auto max-w-screen-lg py-12 px-4'>
-            <nav className="border-gray-200 dark:bg-[#0d1117] dark:text-[#c9d1d9]">
+            <nav className="border-gray-200 dark:bg-[#172136] dark:text-[#cbd9f4]">
                 <div className="container flex flex-wrap justify-between items-center mx-auto">
                     <div className="flex items-center self-center text-2xl whitespace-nowrap">
                         <Link href="/">Luis Parra</Link>
