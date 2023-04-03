@@ -5,7 +5,7 @@ const MobileMenuButton = ({ onToggle, isExpanded }: MobileMenu) => {
         <button
             type="button"
             onClick={onToggle}
-            className="md:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+            className="md:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white ml-2"
             aria-expanded={isExpanded}
             aria-controls="mobile-menu"
         >
