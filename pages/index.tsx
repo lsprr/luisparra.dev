@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import TextInlineDecoration from '../components/TextInlineDecoration/index';
 import AboutMe from '../public/assets/image/me.jpg';
-import OldSchoolRunescape from '../public/assets/image/snake.jpg';
+import Curse from '../public/assets/image/curse.jpg';
 
 const css = { width: '100%', height: '100%' };
 
@@ -24,22 +24,27 @@ export default function Home() {
         </header>
       </section>
       <article className='max-w-screen-lg py-12 px-4 m-auto'>
-        <figure className='dark:border-solid dark:border dark:border-[#596e96]'>
+        <header>
+          <h2 className='container text-xl lg:w-8/12 mx-auto lg:mr-auto lg:ml-0'>
+            <TextInlineDecoration text='Project 01' />
+          </h2>
+        </header>
+        <figure className='mt-5 m-auto lg:max-w-screen-sm border-solid border border-[#94866d] dark:border-[#596e96]'>
           <Image
-            src={OldSchoolRunescape}
-            alt="Old School Runescape"
+            src={Curse}
+            alt="My curse"
             sizes="(max-width: 768px) 50vw,
                       (max-width: 1200px) 100vw,
                       100vw"
             style={css}
             className='container lg:w-8/12 mx-auto lg:ml-auto lg:mr-0'
           />
-          <figcaption className='py-2 dark:bg-[#313e59]'>Image courtesy of prezleek.</figcaption>
+          <figcaption className='py-2 bg-[#f9f3eb] dark:bg-[#313e59]'>My curse</figcaption>
         </figure>
       </article>
       <section className='max-w-screen-lg py-12 px-4 m-auto'>
         <header>
-          <h2 className='container text-xl lg:w-8/12 mx-auto lg:mr-auto lg:ml-0'>
+          <h2 className='container mt-5 text-xl lg:w-8/12 mx-auto lg:ml-auto lg:mr-0'>
             <TextInlineDecoration text='About Me 01' />
             Throughout my journey as a Front End Developer, I have had the amazing opportunity to champion web accessibility at various organizations, including The Clorox Company, Mower Agency, and a bunch of exciting startups.
             Did you know that in the U.S., over one in four people (that is 61 million folks!) live with some form of disability? These people, just like you and me, surf the web, shop online, watch movies, use apps, and access digital content.
@@ -53,15 +58,17 @@ export default function Home() {
         </header>
       </section>
       <article className='max-w-screen-lg py-12 px-4 m-auto'>
-        <figure>
+        <figure className='mt-5 m-auto lg:max-w-screen-sm border-solid border border-[#94866d] dark:border-[#596e96]'>
           <Image
             src={AboutMe}
-            alt="Me"
+            alt="My curse"
             sizes="(max-width: 768px) 50vw,
                       (max-width: 1200px) 100vw,
                       100vw"
-            className='container lg:w-8/12 mx-auto lg:mr-auto lg:ml-0 dark:border-solid dark:border dark:border-[#596e96]'
+            style={css}
+            className='container lg:w-8/12 mx-auto lg:ml-auto lg:mr-0'
           />
+          <figcaption className='py-2 bg-[#f9f3eb] dark:bg-[#313e59]'>Me</figcaption>
         </figure>
       </article>
     </>
