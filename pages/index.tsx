@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <section className='max-w-screen-lg py-12 px-4 m-auto'>
         <header>
-          <h1 className='container mt-20 text-xl lg:w-8/12 mx-auto lg:ml-auto lg:mr-0'>
+          <h1 className='container sm:mt-20 text-xl lg:w-8/12 mx-auto lg:ml-auto lg:mr-0'>
             <TextInlineDecoration text='Introduction 01' />
             Hey There! I&apos;m Luis, your friendly neighborhood Software Engineer with a big heart for problem-solving and refining digital products to deliver the smoothest user experiences.
             Web application development has always been close to my heart, and it thrills me to see it gaining traction within the dev community and all over the internet.
