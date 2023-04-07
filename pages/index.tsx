@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import TextInlineDecoration from '../components/TextInlineDecoration/index';
-import AboutMe from '../public/assets/image/me.jpg';
 import Curse from '../public/assets/image/curse.jpg';
 
 const css = { width: '100%', height: '100%' };
@@ -57,20 +56,6 @@ export default function Home() {
           </h2>
         </header>
       </section>
-      <article className='max-w-screen-lg py-12 px-4 m-auto'>
-        <figure className='mt-5 m-auto lg:max-w-screen-sm border-solid border border-[#94866d] dark:border-[#596e96]'>
-          <Image
-            src={AboutMe}
-            alt="My curse"
-            sizes="(max-width: 768px) 50vw,
-                      (max-width: 1200px) 100vw,
-                      100vw"
-            style={css}
-            className='container lg:w-8/12 mx-auto lg:ml-auto lg:mr-0'
-          />
-          <figcaption className='py-2 bg-[#f9f3eb] dark:bg-[#313e59]'>Me</figcaption>
-        </figure>
-      </article>
     </>
   )
 }
