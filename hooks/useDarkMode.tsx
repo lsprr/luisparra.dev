@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 type Theme = 'light' | 'dark';
 
 const useDarkMode = (): [Theme, () => void] => {
-    const [theme, setTheme] = useState<Theme>('dark');
+    const [theme, setTheme] = useState<Theme>('light');
 
     useEffect(() => {
         const root = window.document.documentElement;
