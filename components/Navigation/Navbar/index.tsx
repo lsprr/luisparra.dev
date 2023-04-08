@@ -1,11 +1,20 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useState, useEffect } from 'react';
-import { NavbarProps } from './NavbarProps';
 import MenuItem from '../MenuItem';
 import ToggleThemeButton from '../buttons/ToggleTheme/';
 import MobileMenuButton from '../buttons/MobileMenu';
 import useDarkMode from '../../../hooks/useDarkMode';
+
+interface MenuItemLink {
+    label: string;
+    href: string;
+    isExternal?: boolean;
+}
+
+interface NavbarProps {
+    menuItems: MenuItemLink[];
+}
 
 const Navbar = ({ menuItems }: NavbarProps) => {
     const [isExpanded, setIsExpanded] = useState(false);

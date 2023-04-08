@@ -1,9 +1,12 @@
 import Link, { LinkProps } from 'next/link';
-import type { MenuItem } from './MenuItemProps';
 
-interface Props extends MenuItem { }
+interface MenuItem {
+    label: string;
+    href: string;
+    isExternal?: boolean;
+}
 
-const MenuItem = ({ label, href, isExternal }: Props) => {
+const MenuItem = ({ label, href, isExternal }: MenuItem) => {
     const linkProps: React.AnchorHTMLAttributes<HTMLAnchorElement> & LinkProps = {
         href,
         className: 'text-xl whitespace-nowrap',

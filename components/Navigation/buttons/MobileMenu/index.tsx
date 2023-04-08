@@ -1,4 +1,7 @@
-import type { MobileMenu } from './MobileMenuProps';
+interface MobileMenu {
+    onToggle: () => void;
+    isExpanded: boolean;
+}
 
 const MobileMenuButton = ({ onToggle, isExpanded }: MobileMenu) => {
     return (

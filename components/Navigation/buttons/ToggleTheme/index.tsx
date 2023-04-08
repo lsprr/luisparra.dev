@@ -1,4 +1,7 @@
-import type { ToggleTheme } from './ToggleThemeProps';
+interface ToggleTheme {
+    colorTheme: string;
+    setTheme: () => void;
+}
 
 const ToggleThemeButton = ({ colorTheme, setTheme }: ToggleTheme) => {
     return (
