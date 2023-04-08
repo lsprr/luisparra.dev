@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import TextInlineDecoration from '../components/TextInlineDecoration/index';
-import Curse from '../public/assets/image/curse.jpg';
+import TextInlineDecoration from '@components/TextInlineDecoration';
+import Curse from '@assets/image/curse.jpg';
 
 const css = { width: '100%', height: '100%' };
 

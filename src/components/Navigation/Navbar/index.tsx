@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import MenuItem from '../MenuItem';
 import ToggleThemeButton from '../buttons/ToggleTheme/';
 import MobileMenuButton from '../buttons/MobileMenu';
-import useDarkMode from '../../../hooks/useDarkMode';
+import useDarkMode from '@hooks/useDarkMode';
 
 interface MenuItemLink {
     label: string;

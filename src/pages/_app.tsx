@@ -1,7 +1,7 @@
-import '../styles/globals.css'
+import '@/styles/globals.css';
 import { AppProps } from 'next/app';
 import Head from 'next/head';
-import Navbar from '../components/Navigation/Navbar';
+import Navbar from '@components/Navigation/Navbar';
 
 /**
  * TODO: Need to move this array of menu items in a separate file.
