@@ -8,7 +8,7 @@ const ToggleThemeButton = ({ colorTheme, setTheme }: ToggleTheme) => {
         <button
             onClick={() => setTheme()}
             aria-label="toggle theme"
-            className="w-[1.8rem] h-[1.8rem]"
+            className="w-[1.8rem] h-[1.8rem] transition-all duration-300"
         >
             <svg
                 viewBox="0 0 24 24"
