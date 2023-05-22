@@ -1,1 +1,0 @@
-💾 Personal website running on Next, React, and Node.js.
