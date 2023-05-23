@@ -7,8 +7,13 @@ module.exports = {
     "./src/helpers/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        Nanum: ['Nanum Myeongjo', "serif"],
+        Inter: ['Inter', 'sans-serif']
+      },
+    },
   },
-  plugins: [],
+  plugins: [require("tailwind-fluid-typography")],
   darkMode: 'class',
 }
