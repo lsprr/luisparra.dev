@@ -1,9 +1,9 @@
-import {Hero} from "@/pages/sections/Hero";
-import {Meme} from "@/pages/sections/Meme";
+import {Hero} from "@components/sections/Hero";
+import {Meme} from "@components/sections/Meme";
 import {ThematicBreak} from "@components/ThematicBreak";
-import {DynamicDeveloper} from "@/pages/sections/DynamicDeveloper";
-import {DeafDeveloperAdvocate} from "@/pages/sections/DeafDeveloperAdvocate";
-import {FAQs} from "@/pages/sections/FAQs";
+import {DynamicDeveloper} from "@components/sections/DynamicDeveloper";
+import {DeafDeveloperAdvocate} from "@components/sections/DeafDeveloperAdvocate";
+import {FAQs} from "@components/sections/FAQs";
 import {Footer} from "@components/Footer";
 
 export default function Home() {
