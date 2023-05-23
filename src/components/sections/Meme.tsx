@@ -66,7 +66,7 @@ export const Meme = () => {
                 {images.map((imageGroup, index) => (
                     <div key={index} className="grid gap-4">
                         {imageGroup.map((image, i) => (
-                            <img key={i} className="max-w-full rounded-lg h-full" src={image.src} alt={image.alt} loading={"lazy"} />
+                            <img key={i} className="max-w-full rounded-lg lg:h-full" src={image.src} alt={image.alt} loading={"lazy"} />
                         ))}
                     </div>
                 ))}
