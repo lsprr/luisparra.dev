@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 
 const images: ({ src: string, alt: string }[][]) = [
     [
@@ -67,7 +66,7 @@ export const Meme = () => {
                 {images.map((imageGroup, index) => (
                     <div key={index} className="grid gap-4">
                         {imageGroup.map((image, i) => (
-                            <Image key={i} className="max-w-full rounded-lg h-full" src={image.src} alt={image.alt} width={500} height={500} loading={"lazy"} />
+                            <img key={i} className="max-w-full rounded-lg h-full" src={image.src} alt={image.alt} loading={"lazy"} />
                         ))}
                     </div>
                 ))}
