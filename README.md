@@ -2,6 +2,8 @@
 
 Welcome to the repository for my personal website. This project is a unique, personal space designed and developed to showcase my work, views, and skills. This modern web application is built with TypeScript, Next.js, and Tailwind CSS, providing an intuitive user experience and a responsive design.
 
+![screenshot](./screenshot.png)  
+
 ## Features
 
 - **Responsive Design**: With the integration of tailwind-fluid-typography, the website provides a seamless experience across various devices and screen sizes.
