@@ -1,5 +1,4 @@
-
-import {ThematicBreak} from "@components/ThematicBreak";
+import { ThematicBreak } from "@components/ThematicBreak";
 import Link from "next/link";
 
 export const Footer = () => {
@@ -17,7 +16,7 @@ export const Footer = () => {
                         <ul className="flex justify-start gap-6 mt-8 sm:mt-0 sm:justify-end">
                             <li>
                                 <Link href='https://github.com/lsprr' rel="noreferrer noopener" target="_blank"
-                                   className="text-gray-700 transition hover:opacity-75">
+                                      className="text-gray-700 transition hover:opacity-75">
                                     <span className="sr-only">GitHub</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                          fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"
@@ -30,7 +29,7 @@ export const Footer = () => {
 
                             <li>
                                 <Link href='https://linkedin.com/in/lsprr' rel="noreferrer noopener" target="_blank"
-                                   className="text-gray-700 transition hover:opacity-75">
+                                      className="text-gray-700 transition hover:opacity-75">
                                     <span className="sr-only">LinkedIn</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                          fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"
@@ -46,7 +45,7 @@ export const Footer = () => {
                     </nav>
                 </div>
 
-                <ThematicBreak description="Start of footer section"/>
+                <ThematicBreak description="Start of footer section" />
 
                 <p className="fluid-sm text-gray-500">
                     &copy; {year}. Luis Parra. All rights reserved.

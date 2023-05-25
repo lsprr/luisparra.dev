@@ -16,43 +16,50 @@ export const DeafDeveloperAdvocate = () => {
                 <div className="col-span-1 row-span-1">
                     <ul className="grid grid-cols-1 md:grid-cols-2 gap-y-10 xl:gap-y-32 gap-x-32">
                         <li>
-                            <div className="flex items-center font-nanum-myeongjo text-black text-lg leading-tight fluid-xl">
+                            <div
+                                className="flex items-center font-nanum-myeongjo text-black text-lg leading-tight fluid-xl">
                                 <span role="img" aria-label="Hand making a sign language gesture">🤟</span>
                                 <div>Compassionate</div>
                             </div>
                         </li>
                         <li>
-                            <div className="flex items-center font-nanum-myeongjo text-black text-lg leading-tight fluid-xl">
+                            <div
+                                className="flex items-center font-nanum-myeongjo text-black text-lg leading-tight fluid-xl">
                                 <span role="img" aria-label="Clapping hands emoji">👏</span>
                                 <div>Supportive</div>
                             </div>
                         </li>
                         <li>
-                            <div className="flex items-center font-nanum-myeongjo text-black text-lg leading-tight fluid-xl">
+                            <div
+                                className="flex items-center font-nanum-myeongjo text-black text-lg leading-tight fluid-xl">
                                 <span role="img" aria-label="Blue heart emoji">💙</span>
                                 <div>Empathetic</div>
                             </div>
                         </li>
                         <li>
-                            <div className="flex items-center font-nanum-myeongjo text-black text-lg leading-tight fluid-xl">
+                            <div
+                                className="flex items-center font-nanum-myeongjo text-black text-lg leading-tight fluid-xl">
                                 <span role="img" aria-label="Computer monitor emoji">🖥️</span>
                                 <div>Dedicated</div>
                             </div>
                         </li>
                         <li>
-                            <div className="flex items-center font-nanum-myeongjo text-black text-lg leading-tight fluid-xl">
+                            <div
+                                className="flex items-center font-nanum-myeongjo text-black text-lg leading-tight fluid-xl">
                                 <span role="img" aria-label="Book emoji">📔</span>
                                 <div>Adaptable</div>
                             </div>
                         </li>
                         <li>
-                            <div className="flex items-center font-nanum-myeongjo text-black text-lg leading-tight fluid-xl">
+                            <div
+                                className="flex items-center font-nanum-myeongjo text-black text-lg leading-tight fluid-xl">
                                 <span role="img" aria-label="Brain emoji">🧠</span>
                                 <div>Tenacious</div>
                             </div>
                         </li>
                         <li>
-                            <div className="flex items-center font-nanum-myeongjo text-black text-lg leading-tight fluid-xl">
+                            <div
+                                className="flex items-center font-nanum-myeongjo text-black text-lg leading-tight fluid-xl">
                                 <span role="img" aria-label="Light bulb emoji">💡</span>
                                 <div>Inspirational</div>
                             </div>

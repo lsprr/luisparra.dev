@@ -67,7 +67,8 @@ export const Meme = () => {
                 {images.map((imageGroup, index) => (
                     <div key={index} className="grid gap-4">
                         {imageGroup.map((image, i) => (
-                            <Image key={i} className="max-w-full rounded-lg lg:h-full" src={image.src} alt={image.alt} width={500} height={500} loading={"lazy"} />
+                            <Image key={i} className="max-w-full rounded-lg lg:h-full" src={image.src} alt={image.alt}
+                                   width={500} height={500} loading={"lazy"} />
                         ))}
                     </div>
                 ))}
@@ -78,8 +79,8 @@ export const Meme = () => {
                     View All <span className="line-through mx-1">Unfinished</span> Projects
                     <span className="ml-2">
                         <svg width="20" height="20" viewBox="0 0 49 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M0 17.1H46.328" stroke="black" strokeWidth="2"/>
-                        <path d="M31.0041 1.00002L47.1315 17.1274L31.0041 33.2549" stroke="black" strokeWidth="2"/>
+                        <path d="M0 17.1H46.328" stroke="black" strokeWidth="2" />
+                        <path d="M31.0041 1.00002L47.1315 17.1274L31.0041 33.2549" stroke="black" strokeWidth="2" />
                         </svg>
                     </span>
                 </Link>

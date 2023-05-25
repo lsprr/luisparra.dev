@@ -32,12 +32,13 @@ export const FAQs = () => {
                                 creating more inclusive and impactful digital experiences.
                             </p>
                         </div>
-                        <hr className="mt-10 bg-black"/>
+                        <hr className="mt-10 bg-black" />
                     </section>
                     <section aria-labelledby="faq2-heading" className="mt-10">
                         <div className="flex items-center focus:outline-none">
                             <h1 id="faq2-heading" className="fluid-xl">
-                                How do you effectively communicate and collaborate with team members as a deaf developer?
+                                How do you effectively communicate and collaborate with team members as a deaf
+                                developer?
                             </h1>
                             <svg className="flex-shrink-0 w-6 h-6 text-blue-500" fill="none"
                                  stroke="currentColor" viewBox="0 0 24 24"
@@ -50,10 +51,14 @@ export const FAQs = () => {
                         <div className="mt-10">
                             <p>
                                 Communication is a key aspect of successful collaboration, and as a deaf developer,
-                                I have honed my skills in effective communication methods. I am skilled in written communication,
-                                utilizing tools such as email, project management platforms, and instant messaging. Additionally,
-                                I am proficient in sign language and can leverage video calls and in-person meetings with the support of interpreters when needed.
-                                By proactively discussing communication preferences and finding the right tools, I ensure smooth collaboration and understanding within the team.
+                                I have honed my skills in effective communication methods. I am skilled in written
+                                communication,
+                                utilizing tools such as email, project management platforms, and instant messaging.
+                                Additionally,
+                                I am proficient in sign language and can leverage video calls and in-person meetings
+                                with the support of interpreters when needed.
+                                By proactively discussing communication preferences and finding the right tools, I
+                                ensure smooth collaboration and understanding within the team.
                             </p>
                         </div>
                     </section>
