@@ -4,57 +4,57 @@ import Image from "next/image";
 const images: ({ src: string, alt: string }[][]) = [
     [
         {
-            src: "/assets/image/funny-5.jpg",
+            src: "/assets/image/funny-5.webp",
             alt: "a man holding a basket of apples in an apple orchard.",
         },
         {
-            src: "/assets/image/funny-2.jpg",
+            src: "/assets/image/funny-2.webp",
             alt: "a man standing on top of a jet engine."
         },
         {
-            src: "/assets/image/funny-11.jpg",
+            src: "/assets/image/funny-11.webp",
             alt: " a comic strip with a cartoon of a man giving another man a problem."
         }
     ],
     [
         {
-            src: "/assets/image/funny-4.jpg",
+            src: "/assets/image/funny-4.webp",
             alt: "a comic strip with a cartoon of a man lifting a barbell.",
         },
         {
-            src: "/assets/image/funny.png",
+            src: "/assets/image/funny.webp",
             alt: "a man standing on a stage with a microphone in his hand."
         },
         {
-            src: "/assets/image/funny-6.jpg",
+            src: "/assets/image/funny-6.webp",
             alt: " a series of pictures showing different stages of a tree."
         }
     ],
     [
         {
-            src: "/assets/image/funny-9.jpg",
+            src: "/assets/image/funny-9.webp",
             alt: "a picture of a man in a pirate costume with a caption that reads, But It does Run",
         },
         {
-            src: "/assets/image/funny-8.jpg",
+            src: "/assets/image/funny-8.webp",
             alt: "a picture of a woman in a field with mountains in the background."
         },
         {
-            src: "/assets/image/funny-10.jpg",
+            src: "/assets/image/funny-10.webp",
             alt: "a page from a wikipedia with an image of a bug."
         }
     ],
     [
         {
-            src: "/assets/image/funny-3.png",
+            src: "/assets/image/funny-3.webp",
             alt: "a cartoon of two people standing next to each other",
         },
         {
-            src: "/assets/image/funny-7.jpg",
+            src: "/assets/image/funny-7.webp",
             alt: "a comic strip with a man holding a piece of wood."
         },
         {
-            src: "/assets/image/funny-12.jpg",
+            src: "/assets/image/funny-12.webp",
             alt: "a frog with a caption saying when you finish cooling so you can close your."
         }
     ],
