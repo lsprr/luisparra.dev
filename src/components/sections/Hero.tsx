@@ -26,8 +26,8 @@ export const Hero = () => {
                 <p className="text-gray-900 uppercase fluid-base w-full md:w-3/4 lg:w-1/2 mx-auto">
                     An <span
                     className="inline-block mt-1 px-2 border border-black rounded-full leading-normal">accolade-laden</span> front-end
-                    developer harmonizing the digital realm for diverse consumer brands across the <span role="img"
-                                                                                                         aria-label="world">~</span>,
+                    developer harmonizing the digital realm for diverse consumer brands across the
+                    <span role="img" aria-label="world" className={"globe-icon"}>~</span>,
                     making the web universally accessible one line of code at a time.
                 </p>
             </div>
