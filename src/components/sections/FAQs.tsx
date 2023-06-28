@@ -3,16 +3,16 @@ export const FAQs = () => {
         <section aria-labelledby="faqs-heading" className="items-center flex flex-col">
             <div className="relative grid xl:grid-cols-2 gap-x-80 gap-y-10 lg:gap-y-32 w-full items-baseline">
                 <div className="col-span-1 row-span-1">
-                    <h4 id="faqs-heading" className="fluid-3xl">
+                    <h2 id="faqs-heading" className="fluid-3xl">
                         Frequently Asked
-                    </h4>
+                    </h2>
                 </div>
                 <div className="col-span-1 row-span-1">
                     <section aria-labelledby="faq1-heading">
                         <div className="flex items-center focus:outline-none justify-between">
-                            <h2 id="faq1-heading" className="fluid-xl">
+                            <h3 id="faq1-heading" className="fluid-xl">
                                 How does your experience as a deaf developer positively impact your work?
-                            </h2>
+                            </h3>
                             <svg className="flex-shrink-0 w-6 h-6 text-blue-500" fill="none"
                                 stroke="currentColor" viewBox="0 0 24 24"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -36,10 +36,10 @@ export const FAQs = () => {
                     </section>
                     <section aria-labelledby="faq2-heading" className="mt-10">
                         <div className="flex items-center focus:outline-none justify-between">
-                            <h2 id="faq2-heading" className="fluid-xl">
+                            <h3 id="faq2-heading" className="fluid-xl">
                                 How do you effectively communicate and collaborate with team members as a deaf
                                 developer?
-                            </h2>
+                            </h3>
                             <svg className="flex-shrink-0 w-6 h-6 text-blue-500" fill="none"
                                 stroke="currentColor" viewBox="0 0 24 24"
                                 xmlns="http://www.w3.org/2000/svg">
