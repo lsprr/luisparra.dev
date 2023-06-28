@@ -62,29 +62,32 @@ const images: ({ src: string, alt: string }[][]) = [
 
 export const Meme = () => {
     return (
-        <section className="bg-white items-center flex flex-col mt-14 lg:mt-40">
+        <div className="bg-white items-center flex flex-col mt-14 lg:mt-40">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                 {images.map((imageGroup, index) => (
                     <div key={index} className="grid gap-4">
                         {imageGroup.map((image, i) => (
-                            <Image key={i} className="max-w-full rounded-lg lg:h-full" src={image.src} alt={image.alt}
-                                   width={500} height={500} loading={"eager"} />
+                            <Image key={i} className="max-w-full rounded-lg lg:h-full" src={image.src}
+                                alt={image.alt || 'Description of the image'}
+                                width={500} height={500} loading={"eager"} />
                         ))}
                     </div>
                 ))}
             </div>
             <div className="mx-auto text-center hover:bg-[#eee6cf] rounded-full px-5 py-3 my-6 mt-20">
                 <Link href="https://github.com/lsprr" target={"_blank"} rel={"noopener noreferrer"}
-                      className="flex items-center font-Inter rounded-full bg-transparent bg-no-repeat bg-right-4 bg-center transition-colors duration-300 ease-in-out text-black">
+                    aria-label="View all projects on GitHub"
+                    className="flex items-center font-Inter rounded-full bg-transparent bg-no-repeat bg-right-4 bg-center transition-colors duration-300 ease-in-out text-black">
                     View All <span className="line-through mx-1">Unfinished</span> Projects
                     <span className="ml-2">
                         <svg width="20" height="20" viewBox="0 0 49 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M0 17.1H46.328" stroke="black" strokeWidth="2" />
-                        <path d="M31.0041 1.00002L47.1315 17.1274L31.0041 33.2549" stroke="black" strokeWidth="2" />
+                            <title>Arrow pointing right</title>
+                            <path d="M0 17.1H46.328" stroke="black" strokeWidth="2" />
+                            <path d="M31.0041 1.00002L47.1315 17.1274L31.0041 33.2549" stroke="black" strokeWidth="2" />
                         </svg>
                     </span>
                 </Link>
             </div>
-        </section>
+        </div>
     );
 };
