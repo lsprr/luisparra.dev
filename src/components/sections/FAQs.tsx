@@ -3,9 +3,9 @@ export const FAQs = () => {
         <section aria-labelledby="faqs-heading" className="items-center flex flex-col">
             <div className="relative grid xl:grid-cols-2 gap-x-80 gap-y-10 lg:gap-y-32 w-full items-baseline">
                 <div className="col-span-1 row-span-1">
-                    <h2 id="faqs-heading" className="fluid-3xl">
+                    <h4 id="faqs-heading" className="fluid-3xl">
                         Frequently Asked
-                    </h2>
+                    </h4>
                 </div>
                 <div className="col-span-1 row-span-1">
                     <section aria-labelledby="faq1-heading">

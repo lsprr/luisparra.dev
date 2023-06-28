@@ -3,7 +3,7 @@ export const DeafDeveloperAdvocate = () => {
         <section aria-label="Advocacy for Deaf Developers" className="items-center flex flex-col">
             <div className="relative grid xl:grid-cols-2 gap-x-80 gap-y-10 lg:gap-y-32 w-full items-baseline">
                 <div className="col-span-1 row-span-1">
-                    <h2 className="fluid-3xl">Empowerment</h2>
+                    <h3 className="fluid-3xl">Empowerment</h3>
                     <p className="mt-10">
                         As a deaf developer, my genuine passion for making a positive impact drives me to create
                         inclusive and accessible experiences.
