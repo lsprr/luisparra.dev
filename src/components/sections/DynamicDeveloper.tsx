@@ -2,10 +2,10 @@ export const DynamicDeveloper = () => {
     return (
         <section aria-label="About the Developer" className="items-center flex flex-col">
             <div className="relative grid xl:grid-cols-2 gap-x-80 gap-y-10 xl:gap-y-32 w-full">
-                <header className="col-span-1 row-span-1">
+                <div className="col-span-1 row-span-1">
                     <h2 className="fluid-3xl">The Developer You Have Been Looking For</h2>
-                </header>
-                <article className="max-w-[650px]">
+                </div>
+                <div className="max-w-[650px]">
                     <p>
                         I am the developer you need, and I bring not only technical expertise but also a good sense of
                         humor to the table.
@@ -24,7 +24,7 @@ export const DynamicDeveloper = () => {
                         a great time doing it. Because when it comes to web development, why be serious when you can be
                         seriously funny?
                     </p>
-                </article>
+                </div>
             </div>
         </section>
     )

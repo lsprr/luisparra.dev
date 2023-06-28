@@ -10,9 +10,9 @@ export const FAQs = () => {
                 <div className="col-span-1 row-span-1">
                     <section aria-labelledby="faq1-heading">
                         <div className="flex items-center focus:outline-none justify-between">
-                            <h1 id="faq1-heading" className="fluid-xl">
+                            <h2 id="faq1-heading" className="fluid-xl">
                                 How does your experience as a deaf developer positively impact your work?
-                            </h1>
+                            </h2>
                             <svg className="flex-shrink-0 w-6 h-6 text-blue-500" fill="none"
                                 stroke="currentColor" viewBox="0 0 24 24"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -36,10 +36,10 @@ export const FAQs = () => {
                     </section>
                     <section aria-labelledby="faq2-heading" className="mt-10">
                         <div className="flex items-center focus:outline-none justify-between">
-                            <h1 id="faq2-heading" className="fluid-xl">
+                            <h2 id="faq2-heading" className="fluid-xl">
                                 How do you effectively communicate and collaborate with team members as a deaf
                                 developer?
-                            </h1>
+                            </h2>
                             <svg className="flex-shrink-0 w-6 h-6 text-blue-500" fill="none"
                                 stroke="currentColor" viewBox="0 0 24 24"
                                 xmlns="http://www.w3.org/2000/svg">
