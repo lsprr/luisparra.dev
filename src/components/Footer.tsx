@@ -9,7 +9,7 @@ export const Footer = () => {
             <div className="mx-auto space-y-8 lg:space-y-16 mt-40">
                 <div className="sm:flex sm:items-center sm:justify-between">
                     <div className="fluid-2xl">
-                        <h1>Luis Parra</h1>
+                        <h2>Luis Parra</h2>
                     </div>
 
                     <nav>
