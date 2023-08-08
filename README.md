@@ -1,15 +1,15 @@
 # Luis Parra's Personal Website
 
-Welcome to the repository for my personal website. This project is a unique, personal space designed and developed to showcase my work, views, and skills. This modern web application is built with TypeScript, Next.js, and Tailwind CSS, providing an intuitive user experience and a responsive design.
+Welcome to the repository for my personal website. This project is a unique, personal space designed and developed to showcase my work, views, and skills. This modern web application is built with TypeScript, Next.js, React, and SASS for a sleek design, providing an intuitive user experience and a responsive design.
 
 ![screenshot](./screenshot.png)  
 
 ## Features
 
-- **Responsive Design**: With the integration of tailwind-fluid-typography, the website provides a seamless experience across various devices and screen sizes.
+- **Responsive Design**: With the integration of pico.css, the website provides a seamless experience across various devices and screen sizes.
 - **Accessible**: The website has been designed with accessibility in mind, following best practices.
-- **Search Engine Optimized**: Built with Next.js, the site provides excellent SEO capabilities out-of-the-box.
-- **Lightweight**: Leveraging the power of Tailwind CSS, the site is lightweight and quick to load.
+- **Search Engine Optimized**: Built with Next.js, the site offers excellent SEO capabilities out-of-the-box.
+- **Lightweight**: The site is lightweight and quick to load.
 
 ## Project Structure
 
@@ -41,9 +41,9 @@ luisparra.dev
 ```
 
 - **/public**: This directory contains static resources like images and SVGs.
-- **/src/components**: This directory contains reusable React components.
-- **/src/pages**: This directory contains all the Next.js pages.
-- **/src/styles**: This directory contains global CSS styles.
+- **/src/components**: This directory holds reusable React components.
+- **/src/pages**: This directory has all the Next.js pages.
+- **/src/sass**: This directory contains global SASS styles.
 
 ## Getting Started
 
@@ -55,7 +55,7 @@ luisparra.dev
    ```
    cd luisparra.dev
    ```
-3. Install the necessary dependencies:
+3. Install the required dependencies:
    ```
    npm install
    ```
@@ -74,17 +74,21 @@ luisparra.dev
 ## Dependencies
 
 - **Next.js**: A JavaScript framework for building server-rendered or statically exported React apps.
-- **React**: A JavaScript library for building user interfaces.
-- **Tailwind CSS**: A utility-first CSS framework for rapidly building custom designs.
+- **React & React DOM**: JavaScript libraries for building user interfaces.
 - **TypeScript**: A typed superset of JavaScript that compiles to plain JavaScript.
+- **Framer Motion**: A motion library for creating animations in React applications.
+- **Sharp**: A Node.js module for image processing.
+- **SASS**: A preprocessor scripting language that is interpreted or compiled into CSS.
+
+For complete dependency versions and additional details, refer to the `package.json` file.
 
 ## Contribute
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Pull requests are welcome. For significant changes, please open an issue first to discuss what you'd like to adjust.
 
 ## License
 
-This project is licensed under the MIT License. See the `LICENSE.md` file for more details.
+This project is licensed under the MIT License. For more details, refer to the `LICENSE.md` file.
 
 ## Author
 
