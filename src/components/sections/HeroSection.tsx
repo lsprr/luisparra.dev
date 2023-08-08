@@ -14,6 +14,7 @@ export const HeroSection = () => {
                     width="350"
                     height="350"
                     alt="My profile picture"
+                    priority
                 />
                 <figcaption>Luis Parra</figcaption>
             </figure>
