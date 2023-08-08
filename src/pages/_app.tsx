@@ -9,13 +9,13 @@ function MyApp({ Component, pageProps }: AppProps) {
     return (
         <>
             <Head>
-                <title>Luis Parra &mdash; Front-End Developer</title>
-                <meta property="og:title" content="Luis Parra &mdash; Front-End Developer" />
+                <title>Luis Parra</title>
+                <meta property="og:title" content="Luis Parra" />
                 <meta name="description"
-                    content="Experienced front-end developer harmonizing the digital realm for diverse consumer brands across the world. Making the web universally accessible one line of code at a time."
+                    content="Front-end developer with a passion for universal web accessibility and inclusivity. Discover how travel and advocacy for deaf developers shape his unique approach to coding and collaboration."
                     key="desc" />
                 <meta property="og:description"
-                    content="Experienced front-end developer harmonizing the digital realm for diverse consumer brands across the world. Making the web universally accessible one line of code at a time." />
+                    content="Front-end developer with a passion for universal web accessibility and inclusivity. Discover how travel and advocacy for deaf developers shape his unique approach to coding and collaboration." />
                 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
                 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
                 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
