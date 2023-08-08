@@ -6,8 +6,8 @@ export const DeafTechAdvocate = () => {
                 <h3>Connecting Worlds, Beyond Boundaries</h3>
             </hgroup>
             <p>
-                My experience as a deaf developer is not a limitation but a unique strength. It's given me profound insights into designing truly inclusive and accessible digital experiences.
-                Through humility and dedication, I resonate with diverse user needs and challenges. My commitment to breaking barriers goes beyond just code—it's a mission to build bridges
+                My experience as a deaf developer is not a limitation but a unique strength. It is given me profound insights into designing truly inclusive and accessible digital experiences.
+                Through humility and dedication, I resonate with diverse user needs and challenges. My commitment to breaking barriers goes beyond just code—it is a mission to build bridges
                 in tech and across the globe.
             </p>
             <div>
