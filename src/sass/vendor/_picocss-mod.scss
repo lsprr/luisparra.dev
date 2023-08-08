@@ -1,0 +1,23 @@
+[data-theme=light],
+:root:not([data-theme=dark]) {
+    --background-color: #fafafa;
+    --muted-color: #717171;
+}
+
+body {
+    padding: 0;
+}
+
+main {
+    padding: var(--block-spacing-vertical) var(--block-spacing-horizontal);
+}
+
+details {
+    border-bottom: unset;
+}
+
+ul {
+    li {
+        list-style: none;
+    }
+}

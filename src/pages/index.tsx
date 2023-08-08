@@ -1,23 +1,30 @@
-import { Hero } from "@components/sections/Hero";
-import { Meme } from "@components/sections/Meme";
 import { ThematicBreak } from "@components/ThematicBreak";
-import { DynamicDeveloper } from "@components/sections/DynamicDeveloper";
-import { DeafDeveloperAdvocate } from "@components/sections/DeafDeveloperAdvocate";
-import { FAQs } from "@components/sections/FAQs";
-import { Footer } from "@components/Footer";
+
+import { HeroSection } from "@components/sections/HeroSection";
+import { FAQSection } from "@components/sections/FAQSection";
+import { FooterSection } from "@components/sections/FooterSection";
+
+import { ProfessionalLinks } from "@/components/ProfessionalLinks";
+import { PersonalProfile } from "@components/PersonalProfile";
+import { DeafTechAdvocate } from "@components/DeafTechAdvocate";
+import { TravelDiaries } from "@/components/TravelDiaries";
 
 export default function Home() {
     return (
         <>
-            <Hero />
-            <Meme />
-            <ThematicBreak description={"Start of The Developer You Have Been Looking For"} />
-            <DynamicDeveloper />
-            <ThematicBreak description={"Start of The Deaf Developer Advocate"} />
-            <DeafDeveloperAdvocate />
-            <ThematicBreak description={"Start of FAQs"} />
-            <FAQs />
-            <Footer />
+            <HeroSection />
+            <ThematicBreak description={"Professional Network"} />
+            <ProfessionalLinks />
+            <ThematicBreak description={"About Me"} />
+            <PersonalProfile />
+            <ThematicBreak description={"Advocacy for Deaf Developers"} />
+            <DeafTechAdvocate />
+            <ThematicBreak description={"Wanderlust Adventures"} />
+            <TravelDiaries />
+            <ThematicBreak description={"FAQs"} />
+            <FAQSection />
+            <ThematicBreak description={"Footer"} />
+            <FooterSection />
         </>
     );
 }
