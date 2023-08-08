@@ -30,6 +30,12 @@ section {
     }
 }
 
+@media (min-width: 576px) {
+    .container {
+        padding: 2.5rem;
+    }
+}
+
 @media (min-width: 768px) {
     section {
         ul {
@@ -40,9 +46,5 @@ section {
                 text-align: center;
             }
         }
-    }
-
-    .container {
-        padding: 2.5rem;
     }
 }
