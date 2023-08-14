@@ -1,6 +1,5 @@
 #__next {
     background-attachment: fixed;
-    background-image: url('/assets/image/background.svg');
     background-size: cover;
     background-position: bottom left;
     background-repeat: repeat;
@@ -21,4 +20,10 @@
 .text-blend {
     color: rgb(0, 255, 255);
     mix-blend-mode: difference;
+}
+
+@media (min-width: 576px) {
+    #__next {
+        background-image: url('/assets/image/background.svg');
+    }
 }
