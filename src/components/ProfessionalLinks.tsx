@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export const ProfessionalLinks = () => {
     return (
-        <section id="ProfessionalLinks">
+        <section id="ProfessionalLinks" aria-label="Professional Network">
             <header>
                 <h2>Professional Network</h2>
             </header>

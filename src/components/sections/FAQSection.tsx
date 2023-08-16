@@ -18,7 +18,7 @@ const faqs = [
 
 export const FAQSection = () => {
     return (
-        <section>
+        <section aria-label="Frequently Asked Questions">
             <header>
                 <h2>
                     Frequently Asked Questions
