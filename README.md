@@ -98,5 +98,3 @@ This project is proudly created by [Luis Parra](https://github.com/lsprr).
 
 - [GitHub](https://github.com/lsprr/luisparra.dev)
 - [Live Site](https://www.luisparra.dev)
-
-Enjoy the exploration of my digital universe!
