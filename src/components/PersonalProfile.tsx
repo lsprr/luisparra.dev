@@ -16,7 +16,7 @@ export const PersonalProfile = () => {
             </p>
             <p>
                 I am all about teamwork and achieving great things together. Working hand in hand with others, we aim not just to meet our goals
-                but to exceed them, always with a smile and a positive spirit. Ready to build something amazing and spread some joy? Let's do it!
+                but to exceed them, always with a smile and a positive spirit. Ready to build something amazing and spread some joy? Let us do it!
             </p>
         </section>
     )

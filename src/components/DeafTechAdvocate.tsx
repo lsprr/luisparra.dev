@@ -7,7 +7,7 @@ export const DeafTechAdvocate = () => {
             <p>
                 Being a deaf developer has opened my eyes to the real value of creating a more inclusive and accessible digital world.
                 I use my unique perspective to connect with a wide range of users and understand their needs better.
-                My goal is bigger than just coding; I'm on a mission to build bridges both in the tech industry and globally.
+                My goal is bigger than just coding; I am on a mission to build bridges both in the tech industry and globally.
             </p>
             <div>
                 <aside>
