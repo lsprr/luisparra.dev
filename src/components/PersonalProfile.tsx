@@ -1,22 +1,22 @@
 export const PersonalProfile = () => {
     return (
         <section aria-label="About Me">
-            <hgroup>
-                <h2>Behind the Brackets</h2>
-                <h3>Bridging Worlds Through Development</h3>
-            </hgroup>
+            <header>
+                <h2>Behind the Scenes: Connecting People Through Code</h2>
+            </header>
             <p>
-                As a front-end developer, my accolades showcase my dedication to harmonizing the digital landscape for diverse consumer brands.
-                My quest? Making the web universally accessible one line of code at a time while weaving in my global adventures.
+                Hi there! I am a front-end developer with a knack for making the web a friendlier place for everyone.
+                I love merging my passion for travel with coding, creating inclusive digital experience inspired by the beautiful
+                places I have visited.
             </p>
             <p>
-                Beyond technical skills, my love for travel shapes my approach to development. Each destination I have been to has shown me the importance of inclusivity,
-                just as every line of code reveals the beauty of a seamless user experience. And, amidst the complexities, I have always found room for a little humor.
+                Traveling is not just a hobby for me; it deeply influences how I approach web development. Every place I visit
+                teaches me a new lesson in inclusivity, and I bring that insight into creating smooth and welcoming user experiences.
+                Oh, and I make sure to sprinkle in some fun and humor along the way!
             </p>
             <p>
-                Collaboration fuels me. I thrive when melding minds with teams, ensuring projects not only achieve but surpass their goals.
-                My attention to detail is unwavering, but I always remember to smile along the journey. Let us craft solutions that bring the world closer
-                and fill it with laughter.
+                I am all about teamwork and achieving great things together. Working hand in hand with others, we aim not just to meet our goals
+                but to exceed them, always with a smile and a positive spirit. Ready to build something amazing and spread some joy? Let's do it!
             </p>
         </section>
     )

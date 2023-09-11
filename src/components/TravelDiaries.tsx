@@ -1,17 +1,19 @@
+import Image from "next/image";
+import cruisePic from '../../public/assets/image/cruise.jpg'
+
 export const TravelDiaries = () => {
     return (
         <section aria-label="Wanderlust Adventures">
             <header>
                 <h2>Wanderlust Adventures</h2>
             </header>
-            {/* <p>
-                Embarking on journeys across the globe, I've explored bustling urban centers and discovered the serenity of countryside retreats.
-                Each destination has left an indelible mark, shaping my perspective and enriching my soul.
-                Dive into my travel chronicles and experience the world through my eyes.
-            </p> */}
-            <p>
-                Coming Soon
-            </p>
+            <figure>
+                <Image
+                    src={cruisePic}
+                    alt="My favorite cruise ship"
+                />
+                <figcaption>Symphony of the Seas</figcaption>
+            </figure>
         </section>
     )
 }

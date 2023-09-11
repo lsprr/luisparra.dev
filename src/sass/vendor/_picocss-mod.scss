@@ -1,7 +1,10 @@
 [data-theme=light],
 :root:not([data-theme=dark]) {
-    --background-color: #fafafa;
-    --muted-color: #717171;
+    --h1-color: hsl(205, 20%, 94%);
+    --h2-color: hsl(205, 20%, 94%);
+    --color: hsl(205, 16%, 77%);
+    --background-color: #11191f;
+    --muted-color: hsl(204.4, 10.9%, 51.6%);
 }
 
 body {
