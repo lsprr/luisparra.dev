@@ -12,7 +12,7 @@ export const TravelDiaries = () => {
                     src={cruisePic}
                     alt="My favorite cruise ship"
                 />
-                <figcaption>Symphony of the Seas</figcaption>
+                <figcaption>Symphony of the Seas: My Favorite Cruise Ship</figcaption>
             </figure>
         </section>
     )
