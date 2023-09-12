@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 function Parchment({ children, ...motionProps }: PropsWithChildren) {
     const contentRef = useRef<HTMLDivElement | null>(null);
     const containerRef = useRef<HTMLDivElement | null>(null);
+    const containRef = useRef<HTMLDivElement | null>(null);
 
     useEffect(() => {
         function scrollHeight() {
@@ -26,11 +27,12 @@ function Parchment({ children, ...motionProps }: PropsWithChildren) {
         };
     }, []);
 
+
     return (
         <>
             <motion.div id="motion" ref={containerRef} {...motionProps}>
                 <div id="parchment" ref={contentRef} />
-                <div id="contain" ref={containerRef}>
+                <div id="contain" ref={containRef}>
                     {children}
                 </div>
 
