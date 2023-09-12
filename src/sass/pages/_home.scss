@@ -27,19 +27,10 @@ section {
 }
 
 #ProfessionalExperiences {
-    margin-right: 1em;
-
     ul {
-        background-color: #11191f;
-        padding: 1rem;
+        padding: 0;
 
         li {
-            list-style: none;
-
-            code {
-                color: hsl(206.2, 14.7%, 57.3%);
-            }
-
             small {
                 margin-left: 2rem;
             }
@@ -50,6 +41,7 @@ section {
 
             .summary,
             .skills {
+                display: block;
                 margin-left: 2rem;
 
                 small {

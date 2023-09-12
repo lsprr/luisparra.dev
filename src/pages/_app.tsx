@@ -1,4 +1,5 @@
 import '@/sass/main.scss';
+import Parchment from '@/components/layout/Parchment';
 
 import { motion } from "framer-motion";
 
@@ -26,7 +27,9 @@ function MyApp({ Component, pageProps }: AppProps) {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
             >
-                <Component {...pageProps} />
+                <Parchment>
+                    <Component {...pageProps} />
+                </Parchment>
             </motion.main>
         </>
     )

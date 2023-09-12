@@ -99,10 +99,11 @@ const experiences = [
 
 export const ProfessionalExperiences = () => {
     return (
-        <article id="ProfessionalExperiences" aria-label="Professional Experiences">
+        <section id="ProfessionalExperiences" aria-label="Professional Experiences">
             <h2>
                 Experiences
             </h2>
+            <p>In my journey, I have had the privilege to embark on several quests, each adding to my repository of knowledge and skills</p>
             {experiences.map((experience) => (
                 <ul key={experience.id}>
                     <li>
@@ -147,6 +148,6 @@ export const ProfessionalExperiences = () => {
                     </li>
                 </ul>
             ))}
-        </article>
+        </section>
     )
 }

@@ -6,11 +6,9 @@ export const FooterSection = () => {
             <header>
                 <h2>Luis Parra</h2>
             </header>
-            <div>
-                <p>
-                    &copy; {year}. Luis Parra. All rights reserved.
-                </p>
-            </div>
+            <p>
+                &copy; {year}. Luis Parra. All rights reserved.
+            </p>
         </footer>
     )
 }

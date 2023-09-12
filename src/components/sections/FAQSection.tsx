@@ -25,7 +25,7 @@ export const FAQSection = () => {
                 </h2>
             </header>
             {faqs.map((faq) => (
-                <details key={faq.id}>
+                <details key={faq.id} open>
                     <summary role="button" key={faq.id}>{faq.question}</summary>
                     <p>{faq.answer}</p>
                 </details>

@@ -1,43 +1,70 @@
-/* Amber Light scheme (Default) */
+/* Purple Light scheme (Default) */
 /* Can be forced with data-theme="light" */
 [data-theme="light"],
 :root:not([data-theme="dark"]) {
-    --primary: #ffb300;
-    --primary-hover: #ffa000;
-    --primary-focus: rgba(255, 179, 0, 0.125);
-    --primary-inverse: rgba(0, 0, 0, 0.75);
+    --primary: #691B7E;
+    --primary-hover: #7b1fa2;
+    --primary-focus: rgba(142, 36, 170, 0.125);
+    --primary-inverse: #FFF;
 }
 
-/* Amber Dark scheme (Auto) */
+/* Purple Dark scheme (Auto) */
 /* Automatically enabled if user has Dark mode enabled */
 @media only screen and (prefers-color-scheme: dark) {
     :root:not([data-theme]) {
-        --primary: #ffb300;
-        --primary-hover: #ffc107;
-        --primary-focus: rgba(255, 179, 0, 0.25);
-        --primary-inverse: rgba(0, 0, 0, 0.75);
+        --primary: #691B7E;
+        --primary-hover: #9c27b0;
+        --primary-focus: rgba(142, 36, 170, 0.25);
+        --primary-inverse: #FFF;
     }
 }
 
-/* Amber Dark scheme (Forced) */
+/* Purple Dark scheme (Forced) */
 /* Enabled if forced with data-theme="dark" */
 [data-theme="dark"] {
-    --primary: #ffb300;
-    --primary-hover: #ffc107;
-    --primary-focus: rgba(255, 179, 0, 0.25);
-    --primary-inverse: rgba(0, 0, 0, 0.75);
+    --primary: #691B7E;
+    --primary-hover: #9c27b0;
+    --primary-focus: rgba(142, 36, 170, 0.25);
+    --primary-inverse: #FFF;
 }
 
-/* Amber (Common styles) */
+/* Purple (Common styles) */
+[data-theme="light"],
+:root:not([data-theme="dark"]) {
+    --background-color: hsl(205, 30%, 15%);
+}
+
 :root {
     --form-element-active-border-color: var(--primary);
     --form-element-focus-color: var(--primary-focus);
-    --muted-color: hsl(204.8, 11.8%, 52%);
-    --icon-chevron-button: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgba(0, 0, 0, 0.75)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
     --switch-color: var(--primary-inverse);
     --switch-checked-background-color: var(--primary);
 }
 
+figure figcaption {
+    color: hsl(200, 7.2%, 32.5%);
+}
+
+article {
+    background: unset;
+    box-shadow: unset;
+}
+
 details {
     border-bottom: unset;
+}
+
+pre,
+code,
+kbd {
+    background: unset;
+    color: hsl(206, 30%, 9%);
+}
+
+hr {
+    border-top: 1px dashed hsl(206, 30%, 9%);
+}
+
+ul li {
+    list-style: none;
 }

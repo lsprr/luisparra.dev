@@ -2,12 +2,17 @@ export const PersonalProfile = () => {
     return (
         <section aria-label="About Me">
             <header>
-                <h1>Hello! I am Luis</h1>
+                <h2>About Me</h2>
             </header>
             <p>
-                I am a front-end developer with a love for traveling the world. My adventures are not just about seeing new places;
-                they also shape the way I approach web development. Being deaf gives me a unique perspective on inclusivity,
-                ensuring everyone can use and enjoy the websites I create, a principle I stand by in all aspects of life.
+                Hello, digital adventurers and fellow developers! I am Luis, a seasoned front developer and avid explorer both in the world of code and the mystical lands of
+                Old School RuneScape. My journey started in the lush lands of Fort Lauderdale, where I honed my skills as a Documentation Analyst before setting forth as a
+                Front-End Developer, continually leveling up to a proficient Full Stack Developer.
+            </p>
+            <p>
+                My experiences mirror an ever-engaging game of Old School RuneScape, filled with exciting quests, learning new skills, and constantly striving to improve and innovate.
+                Being deaf has imbued me with a unique insight, fostering a commitment to inclusivity and accessibility in the digital landscapes I craft. Join me as we forge
+                pathways of innovation and inclusivity in the vast expanses of the web!
             </p>
         </section>
     )

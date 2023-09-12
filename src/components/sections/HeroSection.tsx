@@ -4,7 +4,10 @@ import profilePic from '../../../public/assets/image/me.jpg'
 export const HeroSection = () => {
     return (
         <section>
-            <figure>
+            <header>
+                <h1>Crafting Web Realms, One Quest at a Time</h1>
+            </header>
+            {/* <figure>
                 <Image
                     src={profilePic}
                     alt="My profile picture"
@@ -13,7 +16,7 @@ export const HeroSection = () => {
                     priority
                 />
                 <figcaption>Luis Parra</figcaption>
-            </figure>
+            </figure> */}
         </section>
     );
 };
