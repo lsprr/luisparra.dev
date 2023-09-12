@@ -1,3 +1,5 @@
+@import "@fontsource/libre-baskerville";
+
 /* Purple Light scheme (Default) */
 /* Can be forced with data-theme="light" */
 [data-theme="light"],
@@ -29,20 +31,45 @@
 }
 
 /* Purple (Common styles) */
-[data-theme="light"],
-:root:not([data-theme="dark"]) {
-    --background-color: hsl(205, 30%, 15%);
-}
-
 :root {
+    --h1-color: hsl(0, 0, 8%);
+    --h2-color: hsl(0, 0, 8%);
+    --h3-color: hsl(0, 0, 8%);
+    --h4-color: hsl(0, 0, 8%);
+    --h5-color: hsl(0, 0, 8%);
+    --h6-color: hsl(0, 0, 8%);
+    --font-family: "Libre Baskerville", serif;
     --form-element-active-border-color: var(--primary);
     --form-element-focus-color: var(--primary-focus);
+    --muted-color: hsl(205, 10%, 50%);
     --switch-color: var(--primary-inverse);
     --switch-checked-background-color: var(--primary);
 }
 
-figure figcaption {
-    color: hsl(200, 7.2%, 32.5%);
+body {
+    padding-bottom: calc(1rem + var(--spacing) * 2);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Libre Baskerville", serif;
+}
+
+address,
+blockquote,
+dl,
+figure,
+form,
+ol,
+p,
+pre,
+table,
+ul {
+    color: hsl(0, 0, 8%);
 }
 
 article {
@@ -54,15 +81,19 @@ details {
     border-bottom: unset;
 }
 
+figure figcaption {
+    color: hsl(204, 7.6%, 38.6%);
+}
+
 pre,
 code,
 kbd {
     background: unset;
-    color: hsl(206, 30%, 9%);
+    color: hsl(0, 0, 8%);
 }
 
 hr {
-    border-top: 1px dashed hsl(206, 30%, 9%);
+    border-top: 1px dashed hsl(0, 0, 8%);
 }
 
 ul li {

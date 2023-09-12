@@ -28,7 +28,9 @@ section {
 
 #ProfessionalExperiences {
     ul {
-        padding: 0;
+        border-bottom: 1px dashed hsl(0, 0, 8%);
+        padding: 0.5rem;
+        margin: 0;
 
         li {
             small {
@@ -36,6 +38,7 @@ section {
             }
 
             ul {
+                border-bottom: 0;
                 padding: 0;
             }
 

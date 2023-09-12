@@ -12,7 +12,6 @@ function MyApp({ Component, pageProps }: AppProps) {
             <Head>
                 <title>Luis Parra</title>
                 <meta property="og:title" content="Luis Parra" />
-                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <meta name="description"
                     content="Front-end developer with a passion for universal web accessibility and inclusivity. Discover how travel and advocacy for deaf developers shape his unique approach to coding and collaboration."
                     key="desc" />
