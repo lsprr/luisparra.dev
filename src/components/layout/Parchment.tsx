@@ -3,34 +3,46 @@ import { motion } from "framer-motion";
 
 function Parchment({ children, ...motionProps }: PropsWithChildren) {
     const contentRef = useRef<HTMLDivElement | null>(null);
-    const containerRef = useRef<HTMLDivElement | null>(null);
+    const motionRef = useRef<HTMLDivElement | null>(null);
     const containRef = useRef<HTMLDivElement | null>(null);
 
-    useEffect(() => {
-        function scrollHeight() {
-            const content = contentRef.current;
-            const container = containerRef.current;
+    function scrollHeight() {
+        const content = contentRef.current;
+        const contain = containRef.current;
 
-            if (content && container) {
-                content.style.height = `${container.offsetHeight}px`;
-            }
+        if (content && contain) {
+            content.style.height = `${contain.offsetHeight}px`;
         }
+    }
 
-        scrollHeight();
+    function debounce(func: (...args: any[]) => void, wait: number) {
+        let timeout: NodeJS.Timeout;
+        return function executedFunction(...args: any[]) {
+            const later = () => {
+                clearTimeout(timeout);
+                func(...args);
+            };
+            clearTimeout(timeout);
+            timeout = setTimeout(later, wait);
+        };
+    }
 
-        window.addEventListener('resize', scrollHeight);
-        window.addEventListener('orientationchange', scrollHeight);
+    useEffect(() => {
+        const debouncedScrollHeight = debounce(scrollHeight, 200);
+
+        window.addEventListener('resize', debouncedScrollHeight);
+        window.addEventListener('orientationchange', debouncedScrollHeight);
 
         return () => {
-            window.removeEventListener('resize', scrollHeight);
-            window.removeEventListener('orientationchange', scrollHeight);
+            window.removeEventListener('resize', debouncedScrollHeight);
+            window.removeEventListener('orientationchange', debouncedScrollHeight);
         };
     }, []);
 
 
     return (
         <>
-            <motion.div id="motion" ref={containerRef} {...motionProps}>
+            <motion.div id="motion" ref={motionRef} {...motionProps}>
                 <div id="parchment" ref={contentRef} />
                 <div id="contain" ref={containRef}>
                     {children}
