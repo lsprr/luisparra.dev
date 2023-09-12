@@ -1,5 +1,4 @@
 section {
-
     nav {
         background-color: unset;
         box-shadow: unset;
@@ -24,6 +23,40 @@ section {
 #ProfessionalLinks {
     h2 {
         margin: 0;
+    }
+}
+
+#ProfessionalExperiences {
+    margin-right: 1em;
+
+    ul {
+        background-color: #11191f;
+        padding: 1rem;
+
+        li {
+            list-style: none;
+
+            code {
+                color: hsl(206.2, 14.7%, 57.3%);
+            }
+
+            small {
+                margin-left: 2rem;
+            }
+
+            ul {
+                padding: 0;
+            }
+
+            .descriptions,
+            .skills {
+                margin-left: 2rem;
+
+                small {
+                    margin: 0;
+                }
+            }
+        }
     }
 }
 
