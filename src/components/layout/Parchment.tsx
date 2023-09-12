@@ -18,9 +18,11 @@ function Parchment({ children, ...motionProps }: PropsWithChildren) {
         scrollHeight();
 
         window.addEventListener('resize', scrollHeight);
+        window.addEventListener('orientationchange', scrollHeight);
 
         return () => {
             window.removeEventListener('resize', scrollHeight);
+            window.removeEventListener('orientationchange', scrollHeight);
         };
     }, []);
 
