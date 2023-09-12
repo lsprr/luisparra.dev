@@ -6,7 +6,7 @@ export const ProfessionalLinks = () => {
             <header>
                 <h2>Connect With Me</h2>
             </header>
-            <p>I am always eager to connect with fellow enthusiasts and professionals. Feel free to reach out, whether it's to discuss the finer points of web development or for a friendly chat about the latest Old School RuneScape strategies!</p>
+            <p>I am always eager to connect with fellow enthusiasts and professionals. Feel free to reach out, whether it is to discuss the finer points of web development or for a friendly chat about the latest Old School RuneScape strategies!</p>
             <nav>
                 <ul>
                     <li>

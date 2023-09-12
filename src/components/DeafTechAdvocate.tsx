@@ -6,8 +6,8 @@ export const DeafTechAdvocate = () => {
             </header>
             <p>
                 In the worlds of coding and Old School RuneScape, timing is everything. My journey began synchronously with my passion for travel,
-                a happy harmony that spurred me to craft websites as captivating and varied as the destinations I've ventured to. My approach to teamwork
-                mirrors the camaraderie found in the best adventuring parties: striving towards high goals and valuing each member's contributions.
+                a happy harmony that spurred me to craft websites as captivating and varied as the destinations I have ventured to. My approach to teamwork
+                mirrors the camaraderie found in the best adventuring parties: striving towards high goals and valuing each member&rsquo;s contributions.
             </p>
             <p>As your trusted companion on this expedition, you can rely on me to be</p>
             <div>
