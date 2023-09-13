@@ -11,9 +11,9 @@
 }
 
 .container {
-    background-color: #eee;
-    padding-top: var(--spacing);
-    padding-bottom: var(--spacing);
+    background-color: #f9f3eb;
+    padding-top: calc(1rem + var(--spacing) * 2);
+    padding-bottom: calc(1rem + var(--spacing) * 2);
 }
 
 footer {

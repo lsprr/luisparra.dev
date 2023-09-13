@@ -1,53 +1,54 @@
 @import "@fontsource/libre-baskerville";
 
-/* Purple Light scheme (Default) */
+/* Red Light scheme (Default) */
 /* Can be forced with data-theme="light" */
 [data-theme="light"],
 :root:not([data-theme="dark"]) {
-    --primary: #691B7E;
-    --primary-hover: #7b1fa2;
-    --primary-focus: rgba(142, 36, 170, 0.125);
+    --background-color: #cabe9b;
+    --primary: #4c4335;
+    --primary-hover: #605443;
+    --primary-focus: rgba(84, 110, 122, 0.125);
     --primary-inverse: #FFF;
 }
 
-/* Purple Dark scheme (Auto) */
+/* Red Dark scheme (Auto) */
 /* Automatically enabled if user has Dark mode enabled */
 @media only screen and (prefers-color-scheme: dark) {
     :root:not([data-theme]) {
-        --primary: #691B7E;
-        --primary-hover: #9c27b0;
-        --primary-focus: rgba(142, 36, 170, 0.25);
+        --primary: #4c4335;
+        --primary-hover: #605443;
+        --primary-focus: rgba(84, 110, 122, 0.25);
         --primary-inverse: #FFF;
     }
 }
 
-/* Purple Dark scheme (Forced) */
+/* Red Dark scheme (Forced) */
 /* Enabled if forced with data-theme="dark" */
 [data-theme="dark"] {
-    --primary: #691B7E;
-    --primary-hover: #9c27b0;
-    --primary-focus: rgba(142, 36, 170, 0.25);
+    --primary: #4c4335;
+    --primary-hover: #605443;
+    --primary-focus: rgba(84, 110, 122, 0.25);
     --primary-inverse: #FFF;
 }
 
 /* Purple (Common styles) */
 :root {
-    --h1-color: hsl(0, 0, 8%);
-    --h2-color: hsl(0, 0, 8%);
-    --h3-color: hsl(0, 0, 8%);
-    --h4-color: hsl(0, 0, 8%);
-    --h5-color: hsl(0, 0, 8%);
-    --h6-color: hsl(0, 0, 8%);
     --font-family: "Libre Baskerville", serif;
     --form-element-active-border-color: var(--primary);
     --form-element-focus-color: var(--primary-focus);
+    --h1-color: hsl(205.7, 29.2%, 9.4%);
+    --h2-color: hsl(205.7, 29.2%, 9.4%);
+    --h3-color: hsl(205.7, 29.2%, 9.4%);
+    --h4-color: hsl(205.7, 29.2%, 9.4%);
+    --h5-color: hsl(205.7, 29.2%, 9.4%);
+    --h6-color: hsl(205.7, 29.2%, 9.4%);
     --muted-color: hsl(205, 10%, 50%);
     --switch-color: var(--primary-inverse);
     --switch-checked-background-color: var(--primary);
 }
 
 body {
-    padding-bottom: calc(1rem + var(--spacing) * 2);
+    padding: 0;
 }
 
 h1,
@@ -56,7 +57,13 @@ h3,
 h4,
 h5,
 h6 {
+    color: hsl(205.7, 29.2%, 9.4%);
     font-family: "Libre Baskerville", serif;
+}
+
+a,
+[role="link"] {
+    color: #936039;
 }
 
 address,
@@ -98,4 +105,12 @@ hr {
 
 ul li {
     list-style: none;
+}
+
+button,
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+[role="button"] {
+    border-radius: 0;
 }
