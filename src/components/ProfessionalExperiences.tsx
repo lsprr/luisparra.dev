@@ -7,26 +7,24 @@ const experiences = [
         "start": "June 2021",
         "end": "May 2022",
         "summary": [
-            "Took the lead in implementing and fine-tuning CI/CD processes, setting a new standard for efficiency in the development cycle. Introduced mobile-friendly coding practices that significantly enhanced user engagement and website accessibility."
+            "Boosted the efficiency of our development and deployment processes like upgrading from iron to rune gear, fortified our web application defenses against security threats, improved the mobile user experience considerably, and mentored new guild members (junior developers) to level up their skills."
         ],
         "skills": [
             "JavaScript",
-            "ReactJS",
-            "NodeJS",
+            "React",
+            "Node",
             "PHP",
             "MySQL",
             "jQuery",
             "HTML5",
-            "CSS3 (SASS)",
-            "Bootstrap",
-            "WordPress",
-            "GIT",
-            "GitHub",
+            "CSS3",
+            "Git",
+            "Github",
             "NPM",
             "Yarn",
             "Grunt",
             "Gulp",
-            "BitBucket",
+            "Bitbucket",
             "Figma",
             "Litmus",
             "Google Analytics",
@@ -42,15 +40,14 @@ const experiences = [
         "start": "November 2020",
         "end": "June 2021",
         "summary": [
-            "Focused on crafting and optimizing websites, utilizing a unique perspective as a deaf developer to further enhance user engagement and accessibility, making the digital world a bit friendlier for everyone."
+            "Spruced up websites for law and therapy sectors akin to giving them a stat boost potion, made sure the web platforms are as accessible as the Grand Exchange (RIP Falador Park), and enhanced mobile interfaces to keep users as engaged as a heated battle in the Wilderness."
         ],
         "skills": [
             "JavaScript",
             "PHP",
             "MySQL",
             "HTML5",
-            "CSS3",
-            "WordPress",
+            "CSS3"
         ]
     },
     {
@@ -61,34 +58,34 @@ const experiences = [
         "start": "March 2019",
         "end": "November 2020",
         "summary": [
-            "Played a pivotal role in transitioning websites to Magento 2 at The Clorox Company, promoting growth and inclusivity. Collaborated closely with the marketing team to create engaging and inclusive web content."
+            "Played a vital role in upgrading the company's web marketplace like transitioning from F2P to P2P, improved payment processes to provide a smoother trade experience, boosted user engagement and sales akin to a bustling day at Falador Park (RIP), and promoted a diverse and inclusive digital realm mirroring the harmonious community of Gielinor."
         ],
         "skills": [
             "JavaScript",
             "PHP",
-            "MySQL (MariaDB)",
+            "MySQL",
             "jQuery",
             "HTML5",
-            "CSS3 (SASS & LESS)",
-            "Bootstrap",
+            "CSS3",
             "Jenkins",
             "Docker",
             "GIT",
-            "GitHub",
+            "Github",
             "NPM",
             "Webpack",
-            "Magento 1 & 2"
+            "Magento 1",
+            "Magento 2"
         ]
     },
     {
         "id": 4,
         "cite": "https://www.thecloroxcompany.com/",
         "company": "The Clorox Company",
-        "position": "Documentation Analyst",
+        "position": "Documentation Specialist",
         "start": "July 2016",
         "end": "March 2019",
         "summary": [
-            "Revolutionized documentation procedures, significantly enhancing efficiency and compliance within a regulatory environment."
+            "Revamped the document management process, making it as efficient as a well-planned raid, and ensured the precise and prompt completion of important records, keeping the operation running smoother than a successful Law Runecrafting trip."
         ],
         "skills": [
             "Python",
@@ -109,40 +106,40 @@ export const ProfessionalExperiences = () => {
                     <li>
                         <code>Company</code>
                         <br />
-                        <small>
+                        <kbd id="tab">
                             {experience.cite !== '' ? <a href={experience.cite} target="_blank">{experience.company}</a> : experience.company}
-                        </small>
+                        </kbd>
                         <ul>
                             <li>
                                 <code>Position</code>
                                 <br />
-                                <small>{experience.position}</small>
+                                <kbd id="tab">{experience.position}</kbd>
                             </li>
                             <li>
                                 <code>Start</code>
                                 <br />
-                                <small>{experience.start}</small>
+                                <kbd id="tab">{experience.start}</kbd>
                             </li>
                             <li>
                                 <code>End</code>
                                 <br />
-                                <small>{experience.end}</small>
+                                <kbd id="tab">{experience.end}</kbd>
                             </li>
                             <li>
                                 <code>Summary</code>
                                 <br />
                                 <div className="summary">
-                                    <small>{experience.summary}</small>
+                                    <kbd id="tab">{experience.summary}</kbd>
                                 </div>
                             </li>
                             <li>
                                 <code>Skills</code>
                                 <br />
-                                <div className="skills">
+                                <span id="tab">
                                     {experience.skills?.map((skill, index) => (
-                                        <small key={index}>{skill}, </small>
+                                        <kbd id="skills" key={index}>{skill}</kbd>
                                     ))}
-                                </div>
+                                </span>
                             </li>
                         </ul>
                     </li>

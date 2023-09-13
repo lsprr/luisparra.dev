@@ -114,3 +114,46 @@ input[type="reset"],
 [role="button"] {
     border-radius: 0;
 }
+
+footer {
+    p {
+        margin: 0;
+    }
+}
+
+section {
+    nav {
+        background-color: unset;
+        box-shadow: unset;
+    }
+
+    div {
+        display: contents;
+
+        ul {
+            padding: 0;
+            margin: 0;
+
+            li {
+                div {
+                    justify-content: flex-start;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    section {
+        div {
+            ul {
+                display: flex;
+                justify-content: flex-start;
+
+                li {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
