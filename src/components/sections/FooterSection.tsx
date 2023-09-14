@@ -3,9 +3,7 @@ export const FooterSection = () => {
 
     return (
         <footer aria-label="Site Footer">
-            <header>
-                <h2>Luis Parra</h2>
-            </header>
+            <h2>Luis Parra</h2>
             <p>
                 &copy; {year}. Luis Parra. All rights reserved.
             </p>
