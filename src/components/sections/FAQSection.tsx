@@ -26,7 +26,7 @@ export const FAQSection = () => {
             </header>
             {faqs.map((faq) => (
                 <details key={faq.id}>
-                    <summary key={faq.id}>{faq.question}</summary>
+                    <summary role="button" key={faq.id}>{faq.question}</summary>
                     <p>{faq.answer}</p>
                 </details>
             ))}
