@@ -20,6 +20,10 @@
                 margin-left: 2rem;
             }
 
+            .skills {
+                padding-right: 0;
+            }
+
             .skills:not(:last-child):after {
                 content: ",";
             }
