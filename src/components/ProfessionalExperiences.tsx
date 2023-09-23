@@ -102,48 +102,9 @@ export const ProfessionalExperiences = () => {
             </h2>
             <p>In my journey, I have had the privilege to embark on several quests, each adding to my repository of knowledge and skills</p>
             {experiences.map((experience) => (
-                <ul key={experience.id}>
-                    <li>
-                        <code>Company</code>
-                        <br />
-                        <kbd className="tab">
-                            {experience.cite !== '' ? <a href={experience.cite} target="_blank">{experience.company}</a> : experience.company}
-                        </kbd>
-                        <ul>
-                            <li>
-                                <code>Position</code>
-                                <br />
-                                <kbd className="tab">{experience.position}</kbd>
-                            </li>
-                            <li>
-                                <code>Start</code>
-                                <br />
-                                <kbd className="tab">{experience.start}</kbd>
-                            </li>
-                            <li>
-                                <code>End</code>
-                                <br />
-                                <kbd className="tab">{experience.end}</kbd>
-                            </li>
-                            <li>
-                                <code>Summary</code>
-                                <br />
-                                <div className="summary">
-                                    <kbd className="tab">{experience.summary}</kbd>
-                                </div>
-                            </li>
-                            <li>
-                                <code>Skills</code>
-                                <br />
-                                <span className="tab">
-                                    {experience.skills?.map((skill, index) => (
-                                        <kbd className="skills" key={index}>{skill}</kbd>
-                                    ))}
-                                </span>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
+                <div key={experience.id}>
+
+                </div>
             ))}
         </section>
     )

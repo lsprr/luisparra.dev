@@ -1,5 +1,6 @@
 {
   "name": "lsprr",
+  "description": "My personal website.",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,6 +9,17 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lsprr/luisparra.dev.git"
+  },
+  "keywords": [],
+  "author": "lsprr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lsprr/luisparra.dev/issues"
+  },
+  "homepage": "https://github.com/lsprr/luisparra.dev#readme",
   "dependencies": {
     "@fontsource/libre-baskerville": "^5.0.8",
     "@types/jest": "^29.4.0",
