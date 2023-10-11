@@ -21,15 +21,12 @@ luisparra.dev
 │   next.config.js
 │   package-lock.json
 │   package.json
-│   postcss.config.js
 │   README.md
-│   tailwind.config.js
 │   tsconfig.json
 │
 ├───public
 │   └───assets
 │       ├───image
-│       └───svg
 │
 └───src
     ├───components
