@@ -15,19 +15,19 @@ export const DeafTechAdvocate = () => {
                     <ul>
                         <li>
                             <span role="img" aria-label="Smiling face with smiling eyes emoji, representing understanding">😊</span>
-                            Understanding
+                            <p className="mb-0">Understanding</p>
                         </li>
                         <li>
                             <span role="img" aria-label="Clapping hands emoji, representing encouragement">👏</span>
-                            Encouraging
+                            <p className="mb-0">Encouraging</p>
                         </li>
                         <li>
                             <span role="img" aria-label="Blue heart emoji, representing kindness and warmth">💙</span>
-                            Kind-hearted
+                            <p className="mb-0">Kind-hearted</p>
                         </li>
                         <li>
                             <span role="img" aria-label="Computer monitor emoji, symbolizing resilience and strength in technology">🖥️</span>
-                            Resilient
+                            <p className="mb-0">Resilient</p>
                         </li>
                     </ul>
                 </aside>
@@ -35,15 +35,15 @@ export const DeafTechAdvocate = () => {
                     <ul>
                         <li>
                             <span role="img" aria-label="Open book emoji, representing openness and accessibility to all">📘</span>
-                            Open to All
+                            <p className="mb-0">Open to All</p>
                         </li>
                         <li>
                             <span role="img" aria-label="Brain emoji, representing determination and tenacity">🧠</span>
-                            Determined
+                            <p className="mb-0">Determined</p>
                         </li>
                         <li>
                             <span role="img" aria-label="Light bulb emoji, representing innovation and new ideas">💡</span>
-                            Innovative
+                            <p className="mb-0">Innovative</p>
                         </li>
                     </ul>
                 </aside>
