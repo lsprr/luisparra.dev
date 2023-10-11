@@ -90,18 +90,20 @@ p {
 }
 
 .experience {
-    border: 1px solid #94866d;
-    box-shadow: 0 0.25rem 0.35rem -0.25rem rgba(0, 0, 0, 0.1);
     margin-top: 1em;
-    padding: 1em;
+}
+
+.experience hr {
+    border-top: 1px dotted #605443;
+    position: relative;
+    top: 10px;
 }
 
 .contents-project {
     display: flex;
     flex-flow: row wrap;
-    border: 1px solid #cab39b;
     background: #f9f3eb;
-    box-shadow: 0 0.25rem 0.35rem -0.25rem rgba(0, 0, 0, 0.1);
+    border: 1px solid #cabe9b;
 }
 
 .project-top.project-image {

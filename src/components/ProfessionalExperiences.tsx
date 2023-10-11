@@ -100,7 +100,7 @@ export const ProfessionalExperiences = () => {
             <h2 className="text-bold mb-1">
                 Experiences
             </h2>
-            <p>In my journey, I have had the privilege to embark on several quests, each adding to my repository of knowledge and skills</p>
+            <p className="mb-0">In my journey, I have had the privilege to embark on several quests, each adding to my repository of knowledge and skills</p>
             {experiences.map((experience) => (
                 <div key={experience.id}>
                     <div className="experience">
@@ -136,6 +136,7 @@ export const ProfessionalExperiences = () => {
                                 </p>
                             </div>
                         </div>
+                        <hr />
                     </div>
                 </div>
             ))}
