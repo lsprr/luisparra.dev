@@ -14,7 +14,7 @@ export const PersonalProjects = () => {
                     <div className="project-bottom link-button">
                         <h2>
                             <span className="project-headline">
-                                <a href="https://runesecure.vercel.app/" aria-label="Link to my RuneSecure demo website" target="_blank" rel="noopener noreferrer">OSRS RuneSecure</a>
+                                <a href="https://runesecure.vercel.app/" aria-label="Link to my OSRS RuneSecure demo website" target="_blank" rel="noopener noreferrer">OSRS RuneSecure</a>
                             </span>
                         </h2>
                     </div>
