@@ -1,110 +1,79 @@
-@import "@fontsource/libre-baskerville";
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;300;400&family=PT+Serif:wght@400;700&display=swap');
 
-/* Red Light scheme (Default) */
+/* Grey Light scheme (Default) */
 /* Can be forced with data-theme="light" */
 [data-theme="light"],
 :root:not([data-theme="dark"]) {
-    --background-color: #cabe9b;
-    --primary: #4c4335;
-    --primary-hover: #605443;
-    --primary-focus: rgba(84, 110, 122, 0.125);
+    --background-color: #e2dbc8;
+    --primary: #605443;
+    --primary-hover: #4C4335;
+    --primary-focus: rgba(117, 117, 117, 0.125);
     --primary-inverse: #FFF;
 }
 
-/* Red Dark scheme (Auto) */
+/* Grey Dark scheme (Auto) */
 /* Automatically enabled if user has Dark mode enabled */
 @media only screen and (prefers-color-scheme: dark) {
     :root:not([data-theme]) {
-        --primary: #4c4335;
-        --primary-hover: #605443;
-        --primary-focus: rgba(84, 110, 122, 0.25);
+        --primary: #605443;
+        --primary-hover: #4C4335;
+        --primary-focus: rgba(117, 117, 117, 0.25);
         --primary-inverse: #FFF;
     }
 }
 
-/* Red Dark scheme (Forced) */
+/* Grey Dark scheme (Forced) */
 /* Enabled if forced with data-theme="dark" */
 [data-theme="dark"] {
-    --primary: #4c4335;
-    --primary-hover: #605443;
-    --primary-focus: rgba(84, 110, 122, 0.25);
+    --primary: #605443;
+    --primary-hover: #4C4335;
+    --primary-focus: rgba(117, 117, 117, 0.25);
     --primary-inverse: #FFF;
 }
 
-/* Purple (Common styles) */
+/* Grey (Common styles) */
 :root {
-    --font-family: "Libre Baskerville", serif;
+    --font-family: 'PT Serif', serif;
     --form-element-active-border-color: var(--primary);
     --form-element-focus-color: var(--primary-focus);
-    --h1-color: hsl(205.7, 29.2%, 9.4%);
-    --h2-color: hsl(205.7, 29.2%, 9.4%);
-    --h3-color: hsl(205.7, 29.2%, 9.4%);
-    --h4-color: hsl(205.7, 29.2%, 9.4%);
-    --h5-color: hsl(205.7, 29.2%, 9.4%);
-    --h6-color: hsl(205.7, 29.2%, 9.4%);
-    --muted-color: hsl(205, 10%, 50%);
     --switch-color: var(--primary-inverse);
     --switch-checked-background-color: var(--primary);
 }
 
-body {
-    padding: 0;
+a:is([aria-current], :focus),
+[role="link"]:is([aria-current], :focus) {
+    border: 1px solid #4C4335;
 }
 
+/**
+ * Custom Styles for Old School Runescape
+ */
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    color: hsl(205.7, 29.2%, 9.4%);
-    font-family: "Libre Baskerville", serif;
+    --font-family: 'PT Serif', serif --font-weight: 400;
 }
 
-a,
-[role="link"] {
-    color: #936039;
+p {
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
-address,
-blockquote,
-dl,
-figure,
-form,
-ol,
-p,
-pre,
-table,
+section {
+    margin-bottom: 1rem;
+}
+
+aside li {
+    padding-left: 0;
+}
+
 ul {
-    color: hsl(0, 0, 8%);
-}
-
-article {
-    background: unset;
-    box-shadow: unset;
-}
-
-details {
-    border-bottom: unset;
-}
-
-figure figcaption {
-    color: hsl(204, 7.6%, 38.6%);
-}
-
-pre,
-code,
-kbd {
-    background: unset;
-    color: hsl(0, 0, 8%);
-}
-
-hr {
-    border-top: 1px dashed hsl(0, 0, 8%);
-}
-
-ul li {
-    list-style: none;
+    color: black;
+    font-size: medium;
+    line-height: 1.7em;
+    padding: 0;
 }
 
 button,
@@ -113,47 +82,4 @@ input[type="button"],
 input[type="reset"],
 [role="button"] {
     border-radius: 0;
-}
-
-footer {
-    p {
-        margin: 0;
-    }
-}
-
-section {
-    nav {
-        background-color: unset;
-        box-shadow: unset;
-    }
-
-    div {
-        display: contents;
-
-        ul {
-            padding: 0;
-            margin: 0;
-
-            li {
-                div {
-                    justify-content: flex-start;
-                }
-            }
-        }
-    }
-}
-
-@media (min-width: 768px) {
-    section {
-        div {
-            ul {
-                display: flex;
-                justify-content: flex-start;
-
-                li {
-                    text-align: center;
-                }
-            }
-        }
-    }
 }

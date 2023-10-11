@@ -1,8 +1,8 @@
 export const AfterHours = () => {
     return (
-        <section aria-label="After Hours">
+        <section className="simple flex flex-col" aria-label="After Hours">
             <header>
-                <h2>
+                <h2 className="text-bold mb-1">
                     After Hours
                 </h2>
             </header>
