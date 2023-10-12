@@ -26,9 +26,9 @@ export default function Home() {
                     <AfterHours />
                     <TravelDiaries />
                     <FAQSection />
-                    <FooterSection />
                 </aside>
             </div>
+            <FooterSection />
         </>
     );
 }
