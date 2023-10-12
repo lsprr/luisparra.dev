@@ -25,10 +25,12 @@ export const FAQSection = () => {
                 </h2>
             </header>
             {faqs.map((faq) => (
-                <details key={faq.id}>
-                    <summary role="button" key={faq.id}>{faq.question}</summary>
-                    <p>{faq.answer}</p>
-                </details>
+                <div className="flex-col" key={faq.id}>
+                    <p className="text-bold mb-0">{faq.question}</p>
+                    <p>
+                        {faq.answer}
+                    </p>
+                </div>
             ))}
         </section>
     )
