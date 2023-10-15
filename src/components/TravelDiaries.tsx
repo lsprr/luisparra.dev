@@ -10,7 +10,6 @@ const passports = [
     {
         "id": 2,
         "continent": "North America",
-        "tour": "Bahamas, Barbados, Belize, Costa Rica, Curaçao, Dominican Republic, Honduras, Mexico, Puerto Rico, Saint-Martin (France), Sint Maarten (Dutch part), Trinidad and Tobago, Turks and Caicos Islands, United States, Virgin Islands (British), Virgin Islands (U.S.)",
         "tour": [
             "Bahamas",
             "Barbados",
