@@ -1,6 +1,6 @@
 export const PersonalProfile = () => {
     return (
-        <section className="simple flex flex-col" aria-label="About Me">
+        <section id="AboutMe">
             <header>
                 <h2 className="text-bold mb-1">About Me</h2>
             </header>

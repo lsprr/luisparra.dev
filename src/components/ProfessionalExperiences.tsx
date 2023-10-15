@@ -96,49 +96,24 @@ const experiences = [
 
 export const ProfessionalExperiences = () => {
     return (
-        <section className="simple flex flex-col" id="ProfessionalExperiences" aria-label="Professional Experiences">
+        <section id="ProfessionalExperiences">
             <h2 className="text-bold mb-1">
                 Experiences
             </h2>
-            <p className="mb-0">In my journey, I have had the privilege to embark on several quests, each adding to my repository of knowledge and skills</p>
+            <p>In my journey, I have had the privilege to embark on several quests, each adding to my repository of knowledge and skills</p>
             {experiences.map((experience) => (
-                <div key={experience.id}>
-                    <div className="experience">
-                        <p className="text-bold mb-0">Company:</p>
-                        <div className="mb-0">
-                            {experience.cite !== '' ? <a href={experience.cite} aria-label={`Link to ${experience.company} website`} target="_blank">{experience.company}</a> : experience.company}
-                        </div>
-                        <div>
-                            <div>
-                                <p className="text-bold mb-0">Position:</p>
-                                <p className="mb-0">{experience.position}</p>
-                            </div>
-                            <div>
-                                <p className="text-bold mb-0">Start:</p>
-                                <p className="mb-0">{experience.start}</p>
-                            </div>
-                            <div>
-                                <p className="text-bold mb-0">End:</p>
-                                <p className="mb-0">{experience.end}</p>
-                            </div>
-                            <div>
-                                <p className="text-bold mb-0">Summary:</p>
-                                <div className="summary">
-                                    <p className="mb-0">{experience.summary}</p>
-                                </div>
-                            </div>
-                            <div>
-                                <p className="text-bold mb-0">Skills:</p>
-                                <p className="mb-0">
-                                    {experience.skills?.map((skill, index) => (
-                                        <span className="skills" key={index}> {skill},</span>
-                                    ))}
-                                </p>
-                            </div>
-                        </div>
-                        <hr />
-                    </div>
-                </div>
+                <dl key={experience.id}>
+                    <dt><sub>{experience.start} &mdash; {experience.end}</sub></dt>
+                    <dt><b>{experience.position}</b> @ {experience.cite !== '' ? <a href={experience.cite} aria-label={`Link to ${experience.company} website`} target="_blank">{experience.company}</a> : experience.company}</dt>
+                    <dd>
+                        {experience.summary}
+                    </dd>
+                    <dd>
+                        {experience.skills?.map((skill, index) => (
+                            <kbd key={index}>{skill}</kbd>
+                        ))}
+                    </dd>
+                </dl>
             ))}
         </section>
     )

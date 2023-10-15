@@ -10,6 +10,16 @@
     border-width: 0;
 }
 
+.progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background: #2c2c2c;
+    transform-origin: 0%;
+}
+
 .text-bold {
     font-weight: bold;
 }
@@ -28,12 +38,4 @@
 
 .ml-1 {
     margin-left: 1rem;
-}
-
-.flex {
-    display: flex;
-}
-
-.flex-col {
-    flex-direction: column;
 }

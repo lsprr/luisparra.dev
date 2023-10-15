@@ -1,6 +1,6 @@
 export const ProfessionalLinks = () => {
     return (
-        <section id="ProfessionalLinks" aria-label="Professional Network">
+        <section className="skeleton" id="ProfessionalLinks">
             <div className="linkedin partner">
                 <div className="tile-top">
                     <div className="partner-icon">
@@ -16,9 +16,6 @@ export const ProfessionalLinks = () => {
                         <p className="partner-tagline">Let&apos;s Network on LinkedIn!</p>
                     </a>
                 </div>
-                {/* <div className="tile-bottom linkedin-bottom">
-                    <p className="partner-sr linkedin-sr">My LinkedIn</p>
-                </div> */}
             </div>
             <div className="github partner">
                 <div className="tile-top">
@@ -33,9 +30,6 @@ export const ProfessionalLinks = () => {
                         <p className="partner-tagline">Browse My GitHub Repos!</p>
                     </a>
                 </div>
-                {/* <div className="tile-bottom github-bottom">
-                    <p className="partner-sr github-sr">My GitHub</p>
-                </div> */}
             </div>
         </section>
     )

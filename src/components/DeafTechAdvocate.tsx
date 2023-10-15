@@ -1,6 +1,6 @@
 export const DeafTechAdvocate = () => {
     return (
-        <section className="simple flex flex-col" aria-label="Advocacy for Deaf Developers">
+        <section id="DeafTechAdvocate">
             <header>
                 <h2 className="text-bold mb-1">A Quest in Coding and Exploration</h2>
             </header>

@@ -31,6 +31,7 @@
 
 /* Grey (Common styles) */
 :root {
+    --black: #2c2c2c;
     --font-family: 'PT Serif', serif;
     --form-element-active-border-color: var(--primary);
     --form-element-focus-color: var(--primary-focus);
@@ -43,6 +44,12 @@ a:is([aria-current], :focus),
     border: 1px solid #4C4335;
 }
 
+a,
+[role="link"] {
+    --color: #936039;
+    text-decoration: underline;
+}
+
 /**
  * Custom Styles for Old School Runescape
  */
@@ -52,14 +59,25 @@ h3,
 h4,
 h5,
 h6 {
+    --color: var(--black);
     --font-family: 'PT Serif', serif --font-weight: 400;
 }
 
 p {
+    color: var(--black);
     font-family: 'IBM Plex Sans', sans-serif;
+    font-size: medium;
+    line-height: 1.7em;
 }
 
 section {
+    background: #f9f3eb;
+    border: 1px solid #cabe9b;
+    box-shadow: 0 0.25rem 0.35rem -0.25rem rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em 2em 1em;
+    max-width: 40em;
     margin-bottom: 1rem;
 }
 
@@ -68,10 +86,31 @@ aside li {
 }
 
 ul {
-    color: black;
+    color: var(--black);
     font-size: medium;
     line-height: 1.7em;
     padding: 0;
+}
+
+dl {
+    color: var(--black);
+    font-size: medium;
+    line-height: 1.7em;
+    padding: 0;
+}
+
+dd {
+    margin: 0;
+}
+
+kbd {
+    color: var(--black);
+    background: #e2dbc8;
+    border: 1px solid #cabe9b;
+    border-radius: 0%;
+    font-size: smaller;
+    padding: 0.3rem;
+    margin: 0.1rem;
 }
 
 button,

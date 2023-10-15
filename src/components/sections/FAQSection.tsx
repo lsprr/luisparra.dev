@@ -18,19 +18,19 @@ const faqs = [
 
 export const FAQSection = () => {
     return (
-        <section className="simple flex flex-col" aria-label="Frequently Asked Questions">
+        <section id="FAQ">
             <header>
                 <h2 className="text-bold mb-1">
                     Frequently Asked Questions
                 </h2>
             </header>
             {faqs.map((faq) => (
-                <div className="flex-col" key={faq.id}>
-                    <p className="text-bold mb-0">{faq.question}</p>
-                    <p>
+                <dl key={faq.id}>
+                    <dt><b>{faq.question}</b></dt>
+                    <dd>
                         {faq.answer}
-                    </p>
-                </div>
+                    </dd>
+                </dl>
             ))}
         </section>
     )
