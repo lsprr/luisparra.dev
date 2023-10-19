@@ -2,9 +2,9 @@
 /* Can be forced with data-theme="light" */
 [data-theme="light"],
 :root:not([data-theme="dark"]) {
-    --background-color: #e2dbc8;
-    --primary: #605443;
-    --primary-hover: #4C4335;
+    --background-color: white;
+    --primary: #196eef;
+    --primary-hover: #1e3896;
     --primary-focus: rgba(117, 117, 117, 0.125);
     --primary-inverse: #FFF;
 }
@@ -13,8 +13,8 @@
 /* Automatically enabled if user has Dark mode enabled */
 @media only screen and (prefers-color-scheme: dark) {
     :root:not([data-theme]) {
-        --primary: #605443;
-        --primary-hover: #4C4335;
+        --primary: #196eef;
+        --primary-hover: #1e3896;
         --primary-focus: rgba(117, 117, 117, 0.25);
         --primary-inverse: #FFF;
     }
@@ -23,16 +23,16 @@
 /* Grey Dark scheme (Forced) */
 /* Enabled if forced with data-theme="dark" */
 [data-theme="dark"] {
-    --primary: #605443;
-    --primary-hover: #4C4335;
+    --primary: #196eef;
+    --primary-hover: #1e3896;
     --primary-focus: rgba(117, 117, 117, 0.25);
     --primary-inverse: #FFF;
 }
 
 /* Grey (Common styles) */
 :root {
-    --black: #2c2c2c;
-    --font-family: 'PT Serif', serif;
+    --black: #333b4e;
+    --font-family: sofia-pro, serif;
     --form-element-active-border-color: var(--primary);
     --form-element-focus-color: var(--primary-focus);
     --switch-color: var(--primary-inverse);
@@ -41,18 +41,14 @@
 
 a:is([aria-current], :focus),
 [role="link"]:is([aria-current], :focus) {
-    border: 1px solid #4C4335;
+    border: 1px solid #333b4e;
 }
 
 a,
 [role="link"] {
-    --color: #936039;
     text-decoration: underline;
 }
 
-/**
- * Custom Styles for Old School Runescape
- */
 h1,
 h2,
 h3,
@@ -60,19 +56,19 @@ h4,
 h5,
 h6 {
     --color: var(--black);
-    --font-family: 'PT Serif', serif --font-weight: 400;
+    --font-family: sofia-pro, serif --font-weight: 400;
 }
 
 p {
     color: var(--black);
-    font-family: 'IBM Plex Sans', sans-serif;
     font-size: medium;
+    font-weight: lighter;
     line-height: 1.7em;
 }
 
 section {
-    background: #f9f3eb;
-    border: 1px solid #cabe9b;
+    background: #e8eced36;
+    border: 1px solid #e8eced36;
     box-shadow: 0 0.25rem 0.35rem -0.25rem rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
@@ -85,17 +81,10 @@ aside li {
     padding-left: 0;
 }
 
-ul {
-    color: var(--black);
-    font-size: medium;
-    line-height: 1.7em;
-    padding: 0;
-}
-
 dl {
     color: var(--black);
-    font-family: 'IBM Plex Sans', sans-serif;
     font-size: medium;
+    font-weight: lighter;
     line-height: 1.7em;
     padding: 0;
 }
@@ -106,13 +95,19 @@ dd {
 
 kbd {
     color: var(--black);
-    background: #e2dbc8;
-    border: 1px solid #cabe9b;
+    background: #f4f6f8;
+    border: 1px solid #f4f6f8;
     border-radius: 0%;
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: sofia-pro, sans-serif;
     font-size: smaller;
     padding: 0.3rem;
     margin: 0.1rem;
+}
+
+figcaption {
+    font-size: medium;
+    font-weight: lighter;
+    line-height: 1.7em;
 }
 
 button,

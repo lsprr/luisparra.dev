@@ -1,3 +1,6 @@
+import Image from 'next/image';
+import woodcuttingCapeImage from '../../public/assets/image/woodcutting.gif';
+
 const activities = [
     {
         "id": 1,
@@ -12,7 +15,7 @@ const activities = [
     {
         "id": 3,
         "connection": "Old School RuneScape Gamer",
-        "inspiration": "I unwind with a good old session of Old School RuneScape, where I take a break from coding to indulge in the fun and camaraderie that the lands of Gielinor offer. It is not just a game; it is a joyous expedition where I can be both a strategist and a fellow adventurer, seeking fun and relaxation in a community of like-minded enthusiasts.",
+        "inspiration": "I unwind with a good old session of Old School RuneScape, where I take a break from coding to indulge in the fun and camaraderie that the lands of Gielinor offer. It is not just a game; it is a joyous expedition where I can be both a strategist and a fellow adventurer, seeking fun and relaxation in a community of like-minded enthusiasts. Woodcutting was my first 99!",
     },
 ]
 
@@ -30,6 +33,10 @@ export const AfterHours = () => {
                     </dd>
                 </dl>
             ))}
+            <figure>
+                <Image className='woodcuttingCapeImage' src={woodcuttingCapeImage} alt="Woodcutting was my first 99!" />
+                <figcaption><a href="https://oldschool.runescape.wiki/index.php?curid=65759">Retrieved from OSRS Wiki</a></figcaption>
+            </figure>
         </section>
     )
 }
