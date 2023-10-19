@@ -1,15 +1,10 @@
 export const PersonalProfile = () => {
     return (
-        <section id="AboutMe">
-            <header>
-                <h2 className="text-bold mb-1">About Me</h2>
-            </header>
+        <section id="AboutMe" aria-label="About Me">
             <p>
-                Hello, digital adventurers and fellow developers! I am Luis, a seasoned front developer and avid explorer both in the world of code and the mystical lands of
-                Old School RuneScape. My journey started in the lush lands of Fort Lauderdale, where I honed my skills as a Documentation Analyst before setting forth as a
-                Front-End Developer, continually leveling up to a proficient Full Stack Developer. My experiences mirror an ever-engaging game of Old School RuneScape, filled with exciting quests, learning new skills, and constantly striving to improve and innovate.
-                Being deaf has imbued me with a unique insight, fostering a commitment to inclusivity and accessibility in the digital landscapes I craft. Join me as we forge
-                pathways of innovation and inclusivity in the vast expanses of the web!
+                Greetings to digital enthusiasts and fellow developers! I am Luis. Originating from the vibrant environment of Fort Lauderdale, my professional trajectory began with a role emphasizing precision and order as a Documentation Specialist. This foundation propelled me into the dynamic world of front-end development, where I have been fortunate to influence and shape myriad digital landscapes.
+                Every step in my tech journey has been an adventure, replete with challenges, continuous learning, and an insatiable drive for excellence. My personal experience as a deaf individual has granted me a unique perspective, shaping my passion for inclusivity and making digital experiences accessible to all.
+                Together, let us navigate the boundless universe of the web, forging pathways that champion innovation and inclusivity at every corner.
             </p>
         </section>
     )

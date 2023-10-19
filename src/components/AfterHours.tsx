@@ -2,12 +2,12 @@ const activities = [
     {
         "id": 1,
         "connection": "Family and Friends",
-        "inspiration": "When the screens are off and the code is at rest, you can find me soaking in quality time with family and friends. Whether it is a casual backyard barbecue, a lively game night, or simply sharing laughter over a cup of coffee, I cherish these moments. They recharge my spirit and keep me grounded. In this circle of camaraderie and love, I find the motivation and inspiration to embark on new quests, both in the digital realm and the real world.",
+        "inspiration": "Away from the digital sphere, I immerse myself in moments of joy and connection with family and friends. These can range from spirited game nights to relaxed gatherings or just heartfelt conversations over coffee. These moments ground me, refueling my spirit and passion for both life and work.",
     },
     {
         "id": 2,
         "connection": "Travel Enthusiast",
-        "inspiration": "I am passionate about gathering insights and experiences from around the world, promoting a rich perspective that translates into my web development practices.",
+        "inspiration": "Traveling broadens my horizons, offering me a palette of diverse experiences. This love for exploration not only enriches my personal life but also instills a broader perspective in my professional endeavors.",
     },
     {
         "id": 3,
@@ -18,14 +18,9 @@ const activities = [
 
 export const AfterHours = () => {
     return (
-        <section id="AfterHours">
-            <header>
-                <h2 className="text-bold mb-1">
-                    After Hours
-                </h2>
-            </header>
+        <section id="AfterHours" aria-label="After Hours">
             <p>
-                When I am not immersed in coding, I am an avid traveler exploring the vibrant cultures of our world and embarking on thrilling adventures in the world of Old School RuneScape.
+                When the hum of electronics fades, I delve into the wonders of the world around me. From the intricate patterns of diverse cultures to the simple joys shared with loved ones, my passions extend beyond the confines of code.
             </p>
             {activities.map((activity) => (
                 <dl key={activity.id}>

@@ -12,10 +12,10 @@ function MyApp({ Component, pageProps }: AppProps) {
                 <title>Luis Parra</title>
                 <meta property="og:title" content="Luis Parra" />
                 <meta name="description"
-                    content="Front-end developer with a passion for universal web accessibility and inclusivity. Discover how travel and advocacy for deaf developers shape his unique approach to coding and collaboration."
+                    content="Discover Luis Parra's innovative approach to web engineering. Crafting tailored solutions for a seamless online experience. Dive into a world where every web challenge is met with expertise and precision."
                     key="desc" />
                 <meta property="og:description"
-                    content="Front-end developer with a passion for universal web accessibility and inclusivity. Discover how travel and advocacy for deaf developers shape his unique approach to coding and collaboration." />
+                    content="Discover Luis Parra's innovative approach to web engineering. Crafting tailored solutions for a seamless online experience. Dive into a world where every web challenge is met with expertise and precision." />
                 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
                 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
                 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />

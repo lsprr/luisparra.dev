@@ -7,9 +7,7 @@ import { HeroSection } from "@/components/sections/HeroSection";
 import { PersonalProfile } from "@components/PersonalProfile";
 import { ProfessionalLinks } from "@/components/ProfessionalLinks";
 import { AfterHours } from "@/components/AfterHours";
-import { DeafTechAdvocate } from "@components/DeafTechAdvocate";
 import { ProfessionalExperiences } from "@/components/ProfessionalExperiences";
-import { TravelDiaries } from "@/components/TravelDiaries";
 
 export default function Home() {
     const { scrollYProgress } = useScroll();
@@ -26,13 +24,11 @@ export default function Home() {
             <div className="grid">
                 <div>
                     <PersonalProfile />
-                    <DeafTechAdvocate />
                     <ProfessionalExperiences />
                 </div>
                 <div>
                     <ProfessionalLinks />
                     <AfterHours />
-                    <TravelDiaries />
                     <FAQSection />
                 </div>
             </div>

@@ -1,6 +1,6 @@
 export const ProfessionalLinks = () => {
     return (
-        <section className="skeleton" id="ProfessionalLinks">
+        <section className="skeleton" id="ProfessionalLinks" aria-label="Social Media">
             <div className="linkedin partner">
                 <div className="tile-top">
                     <div className="partner-icon">

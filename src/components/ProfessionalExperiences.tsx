@@ -3,11 +3,11 @@ const experiences = [
         "id": 1,
         "cite": "https://www.mower.com/",
         "company": "Mower",
-        "position": "Full Stack Developer",
+        "position": "Frontend Developer",
         "start": "June 2021",
         "end": "May 2022",
         "summary": [
-            "Boosted the efficiency of our development and deployment processes like upgrading from iron to rune gear, fortified our web application defenses against security threats, improved the mobile user experience considerably, and mentored new guild members (junior developers) to level up their skills."
+            "Enhanced development and deployment processes, significantly boosting efficiency akin to a major system upgrade. Fortified web application security, improved mobile user experience, and guided junior developers in skill advancement."
         ],
         "skills": [
             "JavaScript",
@@ -36,11 +36,11 @@ const experiences = [
         "id": 2,
         "cite": "",
         "company": "Freelance",
-        "position": "Front End Developer",
+        "position": "Frontend Developer",
         "start": "November 2020",
         "end": "June 2021",
         "summary": [
-            "Spruced up websites for law and therapy sectors akin to giving them a stat boost potion, made sure the web platforms are as accessible as the Grand Exchange (RIP Falador Park), and enhanced mobile interfaces to keep users as engaged as a heated battle in the Wilderness."
+            "Revitalized websites for the law and therapy sectors, dramatically improving performance and accessibility. Optimized mobile interfaces, significantly enhancing user engagement."
         ],
         "skills": [
             "JavaScript",
@@ -54,11 +54,11 @@ const experiences = [
         "id": 3,
         "cite": "https://www.thecloroxcompany.com/",
         "company": "The Clorox Company",
-        "position": "Front End Developer",
+        "position": "Frontend Developer",
         "start": "March 2019",
         "end": "November 2020",
         "summary": [
-            "Played a vital role in upgrading the company's web marketplace like transitioning from F2P to P2P, improved payment processes to provide a smoother trade experience, boosted user engagement and sales akin to a bustling day at Falador Park (RIP), and promoted a diverse and inclusive digital realm mirroring the harmonious community of Gielinor."
+            "Key player in the major transition of the company's web marketplace, streamlined payment processes for improved user experience, increased user engagement and sales, and promoted a more inclusive digital environment."
         ],
         "skills": [
             "JavaScript",
@@ -85,7 +85,7 @@ const experiences = [
         "start": "July 2016",
         "end": "March 2019",
         "summary": [
-            "Revamped the document management process, making it as efficient as a well-planned raid, and ensured the precise and prompt completion of important records, keeping the operation running smoother than a successful Law Runecrafting trip."
+            "Overhauled document management processes for peak efficiency, ensuring accurate and timely record-keeping, vital for smooth operations."
         ],
         "skills": [
             "Python",
@@ -96,11 +96,7 @@ const experiences = [
 
 export const ProfessionalExperiences = () => {
     return (
-        <section id="ProfessionalExperiences">
-            <h2 className="text-bold mb-1">
-                Experiences
-            </h2>
-            <p>In my journey, I have had the privilege to embark on several quests, each adding to my repository of knowledge and skills</p>
+        <section id="ProfessionalExperiences" aria-label="Work Experience">
             {experiences.map((experience) => (
                 <dl key={experience.id}>
                     <dt><sub>{experience.start} &mdash; {experience.end}</sub></dt>

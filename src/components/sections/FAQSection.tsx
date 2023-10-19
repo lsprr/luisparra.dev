@@ -18,12 +18,7 @@ const faqs = [
 
 export const FAQSection = () => {
     return (
-        <section id="FAQ">
-            <header>
-                <h2 className="text-bold mb-1">
-                    Frequently Asked Questions
-                </h2>
-            </header>
+        <section id="FAQ" aria-label="Frequently Asked Questions">
             {faqs.map((faq) => (
                 <dl key={faq.id}>
                     <dt><b>{faq.question}</b></dt>
