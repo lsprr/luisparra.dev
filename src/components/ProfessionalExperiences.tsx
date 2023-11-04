@@ -7,29 +7,20 @@ const experiences = [
         "start": "June 2021",
         "end": "May 2022",
         "summary": [
-            "Enhanced development and deployment processes, significantly boosting efficiency akin to a major system upgrade. Fortified web application security, improved mobile user experience, and guided junior developers in skill advancement."
+            "Enhanced CI/CD pipelines, bolstered web security, and improved mobile responsiveness, leading to increased user engagement and broadened accessibility compliance. Also leveraged analytics to uplift marketing strategies and led developer workshops to boost team productivity."
         ],
         "skills": [
+            "TypeScript",
             "JavaScript",
-            "React",
-            "Node",
+            "React.js",
+            "Node.js",
             "PHP",
             "MySQL",
             "jQuery",
-            "HTML5",
-            "CSS3",
+            "Wordpress",
+            "CI/CD",
             "Git",
-            "Github",
-            "NPM",
-            "Yarn",
-            "Grunt",
-            "Gulp",
-            "Bitbucket",
-            "Figma",
-            "Litmus",
-            "Google Analytics",
-            "Google Tag Manager",
-            "Marketo"
+            "Figma"
         ]
     },
     {
@@ -40,14 +31,13 @@ const experiences = [
         "start": "November 2020",
         "end": "June 2021",
         "summary": [
-            "Revitalized websites for the law and therapy sectors, dramatically improving performance and accessibility. Optimized mobile interfaces, significantly enhancing user engagement."
+            "Improved website interactivity and SEO, ensuring WCAG AA compliance, and enhanced mobile responsiveness, resulting in better user engagement."
         ],
         "skills": [
             "JavaScript",
             "PHP",
             "MySQL",
-            "HTML5",
-            "CSS3"
+            "Wordpress"
         ]
     },
     {
@@ -58,23 +48,20 @@ const experiences = [
         "start": "March 2019",
         "end": "November 2020",
         "summary": [
-            "Key player in the major transition of the company's web marketplace, streamlined payment processes for improved user experience, increased user engagement and sales, and promoted a more inclusive digital environment."
+            "Contributed to a major e-commerce platform migration, streamlined payment integrations, boosted content engagement and sales, doubled mobile traffic, and maintained high standards of web accessibility."
         ],
         "skills": [
             "JavaScript",
             "PHP",
             "MySQL",
             "jQuery",
-            "HTML5",
-            "CSS3",
             "Jenkins",
             "Docker",
-            "GIT",
-            "Github",
-            "NPM",
-            "Webpack",
+            "Wordpress",
             "Magento 1",
-            "Magento 2"
+            "Magento 2",
+            "CI/CD",
+            "Git"
         ]
     },
     {
@@ -85,7 +72,7 @@ const experiences = [
         "start": "July 2016",
         "end": "March 2019",
         "summary": [
-            "Overhauled document management processes for peak efficiency, ensuring accurate and timely record-keeping, vital for smooth operations."
+            "Overhauled documentation systems and standardized protocols, enhancing operational efficiency and regulatory compliance."
         ],
         "skills": [
             "Python",
