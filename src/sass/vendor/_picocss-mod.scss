@@ -32,11 +32,17 @@
 /* Grey (Common styles) */
 :root {
     --black: #333b4e;
+    --gray: #eff1f5;
     --font-family: sofia-pro, serif;
     --form-element-active-border-color: var(--primary);
     --form-element-focus-color: var(--primary-focus);
     --switch-color: var(--primary-inverse);
     --switch-checked-background-color: var(--primary);
+}
+
+body {
+    background-color: var(--gray);
+    padding: initial;
 }
 
 a:is([aria-current], :focus),
@@ -67,12 +73,8 @@ p {
 }
 
 section {
-    // background: #e8eced36;
-    // border: 1px solid #e8eced36;
-    // box-shadow: 0 0.25rem 0.35rem -0.25rem rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
-    // padding: 1.5em 2em 1.5em;
     max-width: 40em;
     margin-bottom: 1rem;
 }
@@ -95,8 +97,8 @@ dd {
 
 kbd {
     color: var(--black);
-    background: #f4f6f8;
-    border: 1px solid #f4f6f8;
+    background: transparent;
+    border: 1px solid var(--black);
     border-radius: 0%;
     font-family: sofia-pro, sans-serif;
     font-size: smaller;
@@ -116,4 +118,9 @@ input[type="button"],
 input[type="reset"],
 [role="button"] {
     border-radius: 0;
+}
+
+.container {
+    background: white;
+    padding: 1.5em 2em 1.5em;
 }
