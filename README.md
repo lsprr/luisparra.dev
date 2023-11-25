@@ -1,6 +1,6 @@
 # Luis Parra's Personal Website
 
-Welcome to the repository for my personal website. This project is a unique, personal space designed and developed to showcase my work, views, and skills. This modern web application is built with TypeScript, Next.js, React, and SASS for a sleek design, providing an intuitive user experience and a responsive design.
+Welcome to the repository for my personal website. This project is a unique, personal space designed and developed to showcase my work, views, and skills. This modern web application is built with JavaScript, Vite.js, and SASS for a sleek design, providing an intuitive user experience and a responsive design.
 
 ![screenshot](./screenshot.png)  
 
@@ -8,39 +8,30 @@ Welcome to the repository for my personal website. This project is a unique, per
 
 - **Responsive Design**: With the integration of pico.css, the website provides a seamless experience across various devices and screen sizes.
 - **Accessible**: The website has been designed with accessibility in mind, following best practices.
-- **Search Engine Optimized**: Built with Next.js, the site offers excellent SEO capabilities out-of-the-box.
 - **Lightweight**: The site is lightweight and quick to load.
 
 ## Project Structure
 
 ```bash
 luisparra.dev
-│   .eslintrc.json
 │   .gitignore
+│   index.html
 │   LICENSE.md
-│   next.config.js
+│   main.js
 │   package-lock.json
 │   package.json
 │   README.md
-│   tsconfig.json
+│   screenshot.png
+│   style.scss
 │
 ├───public
-│   └───assets
-│       ├───image
 │
 └───src
     ├───components
-    │   └───sections
-    │
-    ├───pages
-    │
-    └───styles
+    │───sections
 ```
 
-- **/public**: This directory contains static resources like images and SVGs.
-- **/src/components**: This directory holds reusable React components.
-- **/src/pages**: This directory has all the Next.js pages.
-- **/src/sass**: This directory contains global SASS styles.
+- **/src/src**: This directory has all the components and sections. 
 
 ## Getting Started
 
@@ -65,17 +56,14 @@ luisparra.dev
 
 - **dev**: Runs the application in development mode.
 - **build**: Builds the application for production.
-- **start**: Starts the application in production mode.
-- **lint**: Lints the application code.
+- **preview**: Starts the application in preview mode.
 
 ## Dependencies
 
-- **Next.js**: A JavaScript framework for building server-rendered or statically exported React apps.
-- **React & React DOM**: JavaScript libraries for building user interfaces.
-- **TypeScript**: A typed superset of JavaScript that compiles to plain JavaScript.
-- **Framer Motion**: A motion library for creating animations in React applications.
-- **Sharp**: A Node.js module for image processing.
+- **Vite**: A build tool for modern web projects.
 - **SASS**: A preprocessor scripting language that is interpreted or compiled into CSS.
+- **Fontsource**: Font resources.
+- **govuk-frontend**: A frontend framework for building websites.
 
 For complete dependency versions and additional details, refer to the `package.json` file.
 
