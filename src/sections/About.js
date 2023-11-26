@@ -1,6 +1,6 @@
 const About = () => {
   return `
-  <section class="mt-4">
+  <section>
   <div class="govuk-main-wrapper govuk-width-container">
     <div class="govuk-grid-row">
       <div class="govuk-grid-column-full">

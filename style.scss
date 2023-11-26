@@ -9,29 +9,17 @@
     --font-body: 'Mulish Variable', sans-serif;
 }
 
+$govuk-brand-colour: var(--color-red);
 $govuk-font-family: 'Merriweather', sans-serif;
 @import "node_modules/govuk-frontend/govuk/all.scss";
 
-.govuk-header,
-.govuk-header__link--homepage,
-.govuk-heading-l,
-.govuk-accordion__section-button,
-.govuk-footer {
-    font-family: var(--font-heading);
-}
-
-.govuk-body,
-.govuk-body-m {
-    font-family: var(--font-body);
-}
-
-.js-enabled .govuk-accordion__show-all,
-.govuk-accordion__section-toggle-text {
-    font-family: var(--font-body);
+section:first-of-type {
+    margin-top: 2rem;
 }
 
 .govuk-header {
     background: var(--color-red);
+    border-bottom: 0;
     padding: 2rem 0 2rem 0;
 }
 
@@ -47,16 +35,17 @@ $govuk-font-family: 'Merriweather', sans-serif;
     border-top: 10px solid var(--color-red);
 }
 
-.govuk-footer__copyright-logo {
-    display: inline-block;
-    min-width: 125px;
-    padding-top: 112px;
-    background-image: url('./public/android-chrome-512x512.png');
-    background-repeat: no-repeat;
-    background-position: 50% 0%;
-    background-size: 100px 100px;
-    text-align: center;
-    white-space: nowrap;
+.govuk-body,
+.govuk-body-m,
+.js-enabled .govuk-accordion__show-all,
+.govuk-accordion__section-toggle-text {
+    font-family: var(--font-body);
+}
+
+@media (max-width: 500px) {
+    .govuk-body {
+        font-size: larger;
+    }
 }
 
 .homepage-header {
@@ -127,54 +116,5 @@ $govuk-font-family: 'Merriweather', sans-serif;
     .homepage-header__intro {
         font-size: 64px;
         font-size: 4rem;
-    }
-}
-
-@media (min-width: 20em) {
-    .homepage-header__search {
-        box-sizing: border-box;
-        width: 100%;
-        padding: 0 15px
-    }
-}
-
-@media (min-width: 20em) and (min-width: 40.0625em) {
-    .homepage-header__search {
-        width: 66.6666666667%;
-        float: left
-    }
-}
-
-.mt-4 {
-    margin-top: 4rem;
-}
-
-.mt-20px {
-    margin-top: 20px;
-}
-
-.no-border {
-    border: 0;
-}
-
-.text-white {
-    color: var(--color-white);
-}
-
-.w-full {
-    width: 200%;
-}
-
-p {
-    color: #0b0c0c;
-    font-family: var(--font-body);
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 1.25;
-}
-
-@media (max-width: 500px) {
-    .govuk-body {
-        font-size: larger;
     }
 }
