@@ -35,11 +35,11 @@ luisparra.dev
 
 1. Clone the repository:
    ```
-   git clone https://github.com/lsprr/luisparra.dev.git
+   git clone https://github.com/lsprr/luisparra.git
    ```
 2. Navigate to the project directory:
    ```
-   cd luisparra.dev
+   cd luisParra
    ```
 3. Install the required dependencies:
    ```
@@ -79,5 +79,5 @@ This project is proudly created by [Luis Parra](https://github.com/lsprr).
 
 ## Links
 
-- [GitHub](https://github.com/lsprr/luisparra.dev)
+- [GitHub](https://github.com/lsprr/luisparra)
 - [Live Site](https://www.luisparra.dev)
