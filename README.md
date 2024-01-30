@@ -1,6 +1,6 @@
 # Luis Parra's Personal Website
 
-![screenshot](./screenshot.jpg)  
+![screenshot](./screenshot.png)  
 
 ## Features
 

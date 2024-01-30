@@ -2,6 +2,8 @@
 @import "@fontsource-variable/mulish";
 
 :root {
+    --color-darkBlue: #335a84;
+    --color-lightBlue: #698eb6;
     --color-red: #5d3137;
     --color-brightRed: #a4646c;
     --color-white: white;
@@ -9,7 +11,7 @@
     --font-body: 'Mulish Variable', sans-serif;
 }
 
-$govuk-brand-colour: var(--color-red);
+$govuk-brand-colour: var(--color-darkBlue);
 $govuk-font-family: 'Merriweather', sans-serif;
 @import "node_modules/govuk-frontend/govuk/all.scss";
 
@@ -18,7 +20,7 @@ section:first-of-type {
 }
 
 .govuk-header {
-    background: var(--color-red);
+    background: var(--color-darkBlue);
     border-bottom: 0;
     padding: 2rem 0 2rem 0;
 }
@@ -32,7 +34,7 @@ section:first-of-type {
 }
 
 .govuk-footer {
-    border-top: 10px solid var(--color-red);
+    border-top: 10px solid var(--color-darkBlue);
 }
 
 .govuk-body,
@@ -42,17 +44,15 @@ section:first-of-type {
     font-family: var(--font-body);
 }
 
-@media (max-width: 500px) {
-    .govuk-body {
-        font-size: larger;
-    }
-}
-
 .homepage-header {
-    background-color: var(--color-red);
+    background-color: var(--color-darkBlue);
     padding-bottom: 28px;
     padding-top: 20px;
     font-family: var(--font-heading);
+}
+
+.govuk-footer {
+    background-color: var(--color-white);
 }
 
 @media print {
