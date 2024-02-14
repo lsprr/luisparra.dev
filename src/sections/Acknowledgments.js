@@ -5,6 +5,7 @@ const Acknowledgments = () => {
     <div class="govuk-grid-row">
       <div class="govuk-grid-column-full">
         <h2 class="govuk-heading-l">Acknowledgments</h2>
+        <hr class="underline" />
         <p class="govuk-body">
           Big thanks to my family, friends, and mentors. Your support and
           diverse ideas have been crucial to my journey. Together, we are making

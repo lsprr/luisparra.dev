@@ -5,6 +5,7 @@ const AfterHours = () => {
     <div class="govuk-grid-row">
       <div class="govuk-grid-column-full">
         <h2 class="govuk-heading-l">After Hours</h2>
+        <hr class="underline" />
         <p class="govuk-body">
           Outside of my professional world of software engineering, I cherish
           the time spent with family and friends, and immersing myself in
