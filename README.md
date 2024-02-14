@@ -1,6 +1,6 @@
 # Luis Parra's Personal Website
 
-![screenshot](./screenshot.png)  
+![screenshot](./screenshot.jpg)  
 
 ## Features
 
@@ -29,23 +29,30 @@ luisparra.dev
     │───sections
 ```
 
-- **/src/src**: This directory has all the components and sections. 
+- **/src/src**: This directory has all the components and sections.
 
 ## Getting Started
 
 1. Clone the repository:
+
    ```
    git clone https://github.com/lsprr/luisparra.git
    ```
+
 2. Navigate to the project directory:
+
    ```
    cd luisParra
    ```
+
 3. Install the required dependencies:
+
    ```
    npm install
    ```
+
 4. Run the development server:
+
    ```
    npm run dev
    ```
