@@ -4,7 +4,7 @@ const Acknowledgments = () => {
   <div class="govuk-main-wrapper govuk-width-container">
     <div class="govuk-grid-row">
       <div class="govuk-grid-column-full">
-        <h2 class="govuk-heading-l">Acknowledgments</h2>
+        <h2 class="govuk-heading-m">Acknowledgments</h2>
         <hr class="underline" />
         <p class="govuk-body">
           Big thanks to my family, friends, and mentors. Your support and

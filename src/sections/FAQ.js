@@ -4,7 +4,7 @@ const FAQ = () => {
   <div class="govuk-main-wrapper govuk-width-container">
     <div class="govuk-grid-row">
       <div class="govuk-grid-column-full">
-        <h2 class="govuk-heading-l">Frequently Asked Questions</h2>
+        <h2 class="govuk-heading-m">Frequently Asked Questions</h2>
         <hr class="underline" />
         <div
           class="govuk-accordion"

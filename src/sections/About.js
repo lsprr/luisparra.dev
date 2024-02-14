@@ -4,7 +4,7 @@ const About = () => {
   <div class="govuk-main-wrapper govuk-width-container">
     <div class="govuk-grid-row">
       <div class="govuk-grid-column-full">
-        <h2 class="govuk-heading-l">About</h2>
+        <h2 class="govuk-heading-m">About</h2>
         <hr class="underline" />
         <p class="govuk-body">
           Hello! I am Luis. My journey is about transforming challenges into

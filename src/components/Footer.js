@@ -1,6 +1,6 @@
 const Footer = () => {
   return `
-  <div class="govuk-width-container">
+  <div class="govuk-width-container govuk-body">
   <div class="govuk-footer__meta">
     <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
       <h2 class="govuk-visually-hidden">Social Media Links</h2>
