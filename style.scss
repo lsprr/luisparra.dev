@@ -16,10 +16,14 @@
 
 :root {
     --color-red: #a94c4c;
-    --color-black: #333333;
+    --color-black: #050505;
     --color-white: #ffffff;
     --font-heading: 'arno', sans-serif;
     --font-body: 'arno', sans-serif;
+}
+
+::selection {
+    background: pink;
 }
 
 $govuk-brand-colour: var(--color-black);
