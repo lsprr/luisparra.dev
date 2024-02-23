@@ -1,23 +1,21 @@
-import { initAll } from "govuk-frontend";
 import "./style.scss";
 
-import Header from "./src/components/Header";
-import Hero from "./src/sections/Hero";
-import About from "./src/sections/About";
+import Introduction from "./src/sections/Introduction";
 import AfterHours from "./src/sections/AfterHours";
-import FAQ from "./src/sections/FAQ";
 import Acknowledgments from "./src/sections/Acknowledgments";
-import Footer from "./src/components/Footer";
 
-const sections = [Hero(), About(), AfterHours(), FAQ(), Acknowledgments()];
+import Footer from "./src/layouts/Footer";
 
-const headerContent = document.querySelector("#govuk-header");
-headerContent.innerHTML = Header();
+const sections = [
+    Introduction(),
+    AfterHours(),
+    Acknowledgments(),
+];
 
 const mainContent = document.querySelector("#main-content");
 mainContent.innerHTML = sections.join("");
 
-const footerContent = document.querySelector("#govuk-footer");
+const footerContent = document.querySelector("#footer");
 footerContent.innerHTML = Footer();
 
-initAll();
+

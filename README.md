@@ -1,10 +1,10 @@
 # My Personal Website
 
-![screenshot](./screenshot.png)  
+![screenshot](./screenshot.jpg)  
 
 ## Features
 
-- **Responsive Design**: With the integration of pico.css, the website provides a seamless experience across various devices and screen sizes.
+- **Responsive Design**: With the integration of vanilla framework, the website provides a seamless experience across various devices and screen sizes.
 - **Accessible**: The website has been designed with accessibility in mind, following best practices.
 - **Lightweight**: The site is lightweight and quick to load.
 
@@ -67,8 +67,7 @@ luisparra.dev
 
 - **Vite**: A build tool for modern web projects.
 - **SASS**: A preprocessor scripting language that is interpreted or compiled into CSS.
-- **Fontsource**: Font resources.
-- **govuk-frontend**: A frontend framework for building websites.
+- **vanilla-framework**: A simple, extensible CSS framework.
 
 For complete dependency versions and additional details, refer to the `package.json` file.
 
