@@ -1,4 +1,4 @@
-const imgUrl = new URL('../../public/assets/images/man.png', import.meta.url).href
+const imgUrl = new URL('../../public/assets/images/man.webp', import.meta.url).href
 
 const Introduction = () => {
   return `

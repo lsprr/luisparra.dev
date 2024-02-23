@@ -1,4 +1,4 @@
-const imgUrl = new URL('../../public/assets/images/playful.png', import.meta.url).href
+const imgUrl = new URL('../../public/assets/images/playful.webp', import.meta.url).href
 
 const AfterHours = () => {
     return `
