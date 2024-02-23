@@ -12,8 +12,8 @@ const AfterHours = () => {
                 <img
                     id="decorative__playful"
                     src=${imgUrl}
-                    height={100}
-                    width={100}
+                    height="100%"
+                    width="100%"
                     alt="A monochrome sketch of a young boy gripping a sword in his hand."
                     class="avatar"
                     loading="lazy"
