@@ -12,6 +12,8 @@ const Introduction = () => {
           <img
             id="decorative__career"
             src=${imgUrl}
+            height={100}
+            width={100}
             alt="A monochrome sketch of a space man using a laptop."
             class="avatar"
             aria-hidden="true"

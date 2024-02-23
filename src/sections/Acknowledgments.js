@@ -12,6 +12,8 @@ const Acknowledgments = () => {
                 <img
                     id="decorative__thumb"
                     src=${imgUrl}
+                    height={100}
+                    width={100}
                     alt="A monochrome sketch of a thumbs up sign."
                     class="avatar"
                     loading="lazy"
