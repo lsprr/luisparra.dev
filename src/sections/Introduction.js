@@ -14,7 +14,6 @@ const Introduction = () => {
             src=${imgUrl}
             alt="A monochrome sketch of a space man using a laptop."
             class="avatar"
-            loading="lazy"
             aria-hidden="true"
           />
         </div>
