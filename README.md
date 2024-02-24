@@ -25,11 +25,13 @@ luisparra.dev
 ├───public
 │
 └───src
-    ├───components
+    ├───assets
+    ├───helpers
+    ├───layouts
     │───sections
 ```
 
-- **/src/src**: This directory has all the components and sections.
+- **/src/src**: This directory has all the assets, helpers, layouts, and sections.
 
 ## Getting Started
 
