@@ -21,10 +21,7 @@ const Introduction = () => {
         </div>
       </div>
       <div class="col">
-        <h1 class="p-heading--3">
-          Engineering the Web, One Solution at a Time 
-        </h1>
-        <h2 class="p-heading--4 mt-1">Hello there! I'm Luis.</h2>
+        <h3 class="p-heading--4 mt-1">Hello there! I'm Luis.</h3>
         <p>
           I am a passionate software engineer who loves turning
           challenges into creative solutions. Being deaf has given me a unique
