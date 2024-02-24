@@ -6,7 +6,9 @@ const Footer = () => {
         <div class="col-12">
             <p class="p-muted-heading">
                 © ${year} luisparra.dev <br />
-                made with ❤️ and vanilla vitejs
+                made with 
+                <span role="img" aria-label="heart">❤️</span> 
+                and vanilla vitejs
             </p>
             <ul class="p-inline-list">
                 <li class="p-inline-list__item">
