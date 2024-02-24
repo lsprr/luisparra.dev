@@ -1,4 +1,4 @@
-const imgUrl = new URL('../../public/assets/images/man.webp', import.meta.url).href
+import { getImageUrl } from '../helpers/index.js';
 
 const Introduction = () => {
   return `
@@ -11,7 +11,7 @@ const Introduction = () => {
         <div class="decorative">
           <img
             id="decorative__career"
-            src=${imgUrl}
+            src=${getImageUrl('man.webp')}
             height="700"
             width="700"
             alt="A monochrome sketch of a space man using a laptop."

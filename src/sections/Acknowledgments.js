@@ -1,4 +1,4 @@
-const imgUrl = new URL('../../public/assets/images/thumb.webp', import.meta.url).href
+import { getImageUrl } from '../helpers/index.js';
 
 const Acknowledgments = () => {
     return `
@@ -11,7 +11,7 @@ const Acknowledgments = () => {
             <div class="decorative">
                 <img
                     id="decorative__thumb"
-                    src=${imgUrl}
+                    src=${getImageUrl('thumb.webp')}
                     height="700"
                     width="700"
                     alt="A monochrome sketch of a thumbs up sign."

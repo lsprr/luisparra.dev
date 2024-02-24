@@ -1,4 +1,4 @@
-const imgUrl = new URL('../../public/assets/images/playful.webp', import.meta.url).href
+import { getImageUrl } from '../helpers/index.js';
 
 const AfterHours = () => {
     return `
@@ -11,7 +11,7 @@ const AfterHours = () => {
             <div class="decorative">
                 <img
                     id="decorative__playful"
-                    src=${imgUrl}
+                    src=${getImageUrl('playful.webp')}
                     height="700"
                     width="700"
                     alt="A monochrome sketch of a young boy gripping a sword in his hand."
