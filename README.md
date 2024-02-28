@@ -1,6 +1,6 @@
 # My Personal Website
 
-![screenshot](./screenshot.png)  
+![screenshot](./screenshot.jpg)  
 
 ## Features
 
@@ -19,7 +19,7 @@ luisparra.dev
 │   package-lock.json
 │   package.json
 │   README.md
-│   screenshot.png
+│   screenshot.jpg
 │
 ├───public
 │
