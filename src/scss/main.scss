@@ -1,5 +1,5 @@
-$color-blossom: #007559;
-$color-fade: #006994;
+$color-blossom: blue;
+$color-fade: purple;
 
 $color-bg: #ffffff;
 $color-bg-alt: #f7f7f7;
@@ -34,6 +34,14 @@ h5 {
 
 h6 {
     font-size: .25em
+}
+
+a {
+    text-decoration: underline;
+
+    &:hover {
+        border-bottom: none;
+    }
 }
 
 header,
