@@ -1,18 +1,24 @@
-import "./style.scss";
+import "./src/scss/main.scss";
 
-import Hero from "./src/sections/Hero";
-import Introduction from "./src/sections/Introduction";
+import Header from './src/layouts/Header';
+import Footer from "./src/layouts/Footer";
+
+import About from "./src/sections/About";
+import Work from "./src/sections/Work";
+import Technologies from './src/sections/Technologies';
 import AfterHours from "./src/sections/AfterHours";
 import Acknowledgments from "./src/sections/Acknowledgments";
 
-import Footer from "./src/layouts/Footer";
-
 const sections = [
-    Hero(),
-    Introduction(),
+    About(),
+    Work(),
+    Technologies(),
     AfterHours(),
     Acknowledgments(),
 ];
+
+const headerContent = document.querySelector("#header");
+headerContent.innerHTML = Header();
 
 const mainContent = document.querySelector("#main-content");
 mainContent.innerHTML = sections.join("");

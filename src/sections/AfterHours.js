@@ -1,52 +1,66 @@
-import { getImageUrl } from '../helpers/index.js';
-
 const AfterHours = () => {
     return `
-    <div class="u-fixed-width">
-        <h2 class="p-muted-heading">After Hours</h2>
-    </div>
-    <section class="p-strip is-deep">
-        <div class="row--25-75">
-            <div class="col">
-                <div class="decorative">
-                    <img
-                        id="decorative__playful"
-                        src=${getImageUrl('playful.webp')}
-                        height="700"
-                        width="700"
-                        alt="A monochrome sketch of a young boy gripping a sword in his hand."
-                        class="avatar"
-                        loading="lazy"
-                        aria-hidden="true"
-                    />
-                </div>
-            </div>
-            <div class="col">
-                <p>
-                    Outside of my professional world of software engineering, I cherish the time spent with family and friends, 
-                    and immersing myself in diverse experiences. 
-                </p>
-                <p>
-                    Family is my cornerstone. Whether it is enjoying a simple family dinner or engaging in fun activities, 
-                    these moments are invaluable. They bring laughter, warmth, and a sense of togetherness that is irreplaceable. 
-                </p>
-                <p>
-                    My friends are a vital part of my life too. Bonding over Old School Runescape sessions, we navigate through 
-                    this virtual world, which is as much about friendship as it is about the game. It is our way to connect, 
-                    relax, and make memories. 
-                </p>
-                <p>
-                    Travel holds a special place in my heart. Each journey, whether near or far, brings a new adventure and perspective. 
-                    The experiences gathered from traveling the world not only enrich my personal life but also inspire 
-                    fresh ideas in my professional endeavors. 
-                </p>
-                <p>
-                    Whether it is spending quality time with loved ones, gaming with friends, or exploring new destinations, 
-                    these pursuits outside of work keep me grounded, rejuvenated, and ready for life is next adventure. 
-                </p>
-            </div>
-        </div>
-    </section>
+    <section>
+        <h2>Outside of Work</h2>
+        <p>
+            Whenever I am not working, I try to spend as much time outside as possible. During the summer, 
+            I love to cruise, and in the winter, I love to be adventurous. When I get the chance, I make 
+            every effort to travel, both domestically and overseas. 
+        </p>
+        <h3>My Favorite Places in the World (so far)</h3>
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <a href="https://en.wikipedia.org/wiki/Mahahual">Mahahual, Costa Maya</a>
+                    </td>
+                    <td>
+                        A place where sunlight abounds and the climate is ideal for both seaside appeal and "chef's kiss" weather. 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://en.wikipedia.org/wiki/Willemstad">Willemstad, Curaçao</a>
+                    </td>
+                    <td>
+                        This vivid Caribbean treasure offers a kaleidoscope of hues, combining island charm with Dutch influence to create an amazing experience.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://en.wikipedia.org/wiki/Punta_Cana">Punta Cana, Dominican Republic</a>
+                    </td>
+                    <td>
+                        Relax in paradise as pristine beaches meet turquoise waters, forming a refuge where relaxation and adventure coexist seamlessly.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://en.wikipedia.org/wiki/Lisbon">Lisboa, Portugal</a>
+                    </td>
+                    <td>
+                        A colorful tapestry of Portuguese culture leads from narrow cobblestone alleyways, combining modern charm with historical charm.                     
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://en.wikipedia.org/wiki/Porto">Porto, Portugal</a>
+                    </td>
+                    <td>
+                        A charming fusion of energetic modernity and old world charm, the Douro River meanders through old neighborhoods here, beckoning me to experience the true spirit of Portuguese culture.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://en.wikipedia.org/wiki/Funchal">Funchal, Madeira</a>
+                    </td>
+                    <td>
+                        Embrace the charm of cobbled streets, vibrant markets, and breathtaking ocean views in this botanical haven nestled between lush hills and the sparkling Atlantic. 
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section> 
     `
 }
 

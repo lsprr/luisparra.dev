@@ -4,7 +4,7 @@
 
 ## Features
 
-- **Responsive Design**: With the integration of vanilla framework, the website provides a seamless experience across various devices and screen sizes.
+- **Responsive Design**: With the integration of Sakura CSS, the website provides a seamless experience across various devices and screen sizes.
 - **Accessible**: The website has been designed with accessibility in mind, following best practices.
 - **Lightweight**: The site is lightweight and quick to load.
 
@@ -20,31 +20,31 @@ luisparra.dev
 │   package.json
 │   README.md
 │   screenshot.png
-│   style.scss
 │
 ├───public
 │
 └───src
     ├───assets
+    ├───scss
     ├───helpers
     ├───layouts
     │───sections
 ```
 
-- **/src/src**: This directory has all the assets, helpers, layouts, and sections.
+- **/src/**: This directory has all the assets, helpers, layouts, and sections.
 
 ## Getting Started
 
 1. Clone the repository:
 
    ```
-   git clone https://github.com/lsprr/luisparra.git
+   git clone https://github.com/lsprr/luisparra.dev.git
    ```
 
 2. Navigate to the project directory:
 
    ```
-   cd luisParra
+   cd luisparra.dev
    ```
 
 3. Install the required dependencies:
@@ -69,7 +69,6 @@ luisparra.dev
 
 - **Vite**: A build tool for modern web projects.
 - **SASS**: A preprocessor scripting language that is interpreted or compiled into CSS.
-- **vanilla-framework**: A simple, extensible CSS framework.
 
 For complete dependency versions and additional details, refer to the `package.json` file.
 
