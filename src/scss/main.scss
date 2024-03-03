@@ -1,4 +1,4 @@
-$color-blossom: blue;
+$color-blossom: #005380;
 $color-fade: purple;
 
 $color-bg: #ffffff;
@@ -71,16 +71,34 @@ img {
     margin: 0;
 }
 
-table {
-    tbody {
-        tr {
-            td {
-                border: 2px dashed black;
-                padding: 1rem;
+.custom-table {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 
-                a {
-                    display: table-caption;
-                }
+    .table-row {
+        border-top: 2px dashed black;
+        display: flex;
+        flex-direction: row;
+
+        .table-cell {
+            padding: 1rem;
+
+            &:first-child {
+                align-items: center;
+                border-left: 2px dashed black;
+                border-right: 2px dashed black;
+                display: flex;
+                flex: 0 0 20%;
+            }
+
+            &:last-child {
+                border-right: 2px dashed black;
+                flex: 1;
+            }
+
+            &-b-bottom {
+                border-bottom: 2px dashed black;
             }
         }
     }
