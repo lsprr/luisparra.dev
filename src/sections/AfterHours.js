@@ -14,7 +14,7 @@ const AfterHours = () => {
                     <a href="https://en.wikipedia.org/wiki/Mahahual">Mahahual, Costa Maya</a>
                 </div>
                 <div class="table-cell">
-                    A place where sunlight abounds and the climate is ideal for both seaside appeal and "chef's kiss" weather. 
+                    The vibrant colors of the pristine beaches and the warm hospitality of its people captured my heart.
                 </div>
             </div>
             <div class="table-row">
@@ -22,7 +22,7 @@ const AfterHours = () => {
                     <a href="https://en.wikipedia.org/wiki/Willemstad">Willemstad, Curaçao</a>
                 </div>
                 <div class="table-cell">
-                    This vivid Caribbean treasure offers a kaleidoscope of hues, combining island charm with Dutch influence to create an amazing experience. 
+                    The charming pastel-colored architecture and rich cultural heritage made it an unforgettable destination for me.
                 </div>
             </div>
             <div class="table-row">
@@ -30,7 +30,7 @@ const AfterHours = () => {
                     <a href="https://en.wikipedia.org/wiki/Punta_Cana">Punta Cana, Dominican Republic</a>
                 </div>
                 <div class="table-cell">
-                    Relax in paradise as pristine beaches meet turquoise waters, forming a refuge where relaxation and adventure coexist seamlessly. 
+                    The stunning white sand beaches and crystal-clear turquoise waters left me in awe of its natural beauty.
                 </div>
             </div>
             <div class="table-row">
@@ -38,7 +38,7 @@ const AfterHours = () => {
                     <a href="https://en.wikipedia.org/wiki/Lisbon">Lisboa, Portugal</a>
                 </div>
                 <div class="table-cell">
-                    A colorful tapestry of Portuguese culture leads from narrow cobblestone alleyways, combining modern charm with historical charm. 
+                    The blend of historic charm, lively culture, and breathtaking views of the city, made it a must-visit.
                 </div>
             </div>
             <div class="table-row">
@@ -46,7 +46,7 @@ const AfterHours = () => {
                     <a href="https://en.wikipedia.org/wiki/Porto">Porto, Portugal</a>
                 </div>
                 <div class="table-cell">
-                    A charming fusion of energetic modernity and old world charm, the Douro River meanders through old neighborhoods here, beckoning me to experience the true spirit of Portuguese culture. 
+                    The enchanting blend of ancient alleys, historic bridges, and the rich flavors of port wine that made every moment a delight to savor.
                 </div>
             </div>
             <div class="table-row">
@@ -54,7 +54,7 @@ const AfterHours = () => {
                     <a href="https://en.wikipedia.org/wiki/Funchal">Funchal, Madeira</a>
                 </div>
                 <div class="table-cell table-cell-b-bottom">
-                    Embrace the charm of cobbled streets, vibrant markets, and breathtaking ocean views in this botanical haven nestled between lush hills and the sparkling Atlantic. 
+                    The picturesque landscapes, lush gardens, and relaxed atmosphere made it a tranquil haven that captivated my soul.
                 </div>
             </div>
         </div>
