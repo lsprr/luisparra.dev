@@ -4,10 +4,10 @@ const Header = () => {
     return `
     <div class="logo-container">
         <img
-            src=${getImageUrl('bear.png')}
+            src=${getImageUrl('capybara.gif')}
             width="250"
             height="250"      
-            alt="A white bear wearing a hat and shorts, standing on a field."      
+            alt="A brown capybara with an orange fruit precariously balanced on its head pops up from the water and then back into the water."      
         />
     </div>
     <h1>Luis Parra</h1>

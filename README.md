@@ -1,6 +1,6 @@
 # My Personal Website
 
-![screenshot](./screenshot.png)  
+![screenshot](./screenshot.jpg)  
 
 ## Features
 
